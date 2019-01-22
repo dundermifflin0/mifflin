@@ -8,14 +8,9 @@
     <version>1.0-SNAPSHOT</version>
 <dependencies>
 <dependency>
-    <groupId>commons-beanutils</groupId>
-    <artifactId>commons-beanutils</artifactId>
-    <version>1.7.0</version>
-</dependency>
-<dependency>
-    <groupId>com.netflix.netflix-commons</groupId>
-    <artifactId>netflix-statistics</artifactId>
-    <version>0.1.1</version>
+    <groupId>org.yaml</groupId>
+    <artifactId>snakeyaml</artifactId>
+    <version>1.17</version>
 </dependency>
 <dependency>
     <groupId>com.fasterxml</groupId>
@@ -23,24 +18,14 @@
     <version>1.0.0</version>
 </dependency>
 <dependency>
-    <groupId>ch.qos.logback</groupId>
-    <artifactId>logback-core</artifactId>
-    <version>1.1.11</version>
+    <groupId>org.apache.zookeeper</groupId>
+    <artifactId>zookeeper</artifactId>
+    <version>3.4.10</version>
 </dependency>
 <dependency>
-    <groupId>axis</groupId>
-    <artifactId>axis-ant</artifactId>
-    <version>1.2</version>
-</dependency>
-<dependency>
-    <groupId>org.aspectj</groupId>
-    <artifactId>aspectjweaver</artifactId>
-    <version>1.8.9</version>
-</dependency>
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>jcl-over-slf4j</artifactId>
-    <version>1.7.25</version>
+    <groupId>org.reactivestreams</groupId>
+    <artifactId>reactive-streams</artifactId>
+    <version>1.0.1</version>
 </dependency>
 <dependency>
     <groupId>joda-time</groupId>
@@ -48,29 +33,24 @@
     <version>2.3</version>
 </dependency>
 <dependency>
-    <groupId>com.google.collections</groupId>
-    <artifactId>google-collections</artifactId>
-    <version>1.0</version>
+    <groupId>ch.qos.logback</groupId>
+    <artifactId>logback-classic</artifactId>
+    <version>1.1.11</version>
 </dependency>
 <dependency>
-    <groupId>com.jcraft</groupId>
-    <artifactId>jsch</artifactId>
-    <version>0.1.54</version>
+    <groupId>com.microsoft.sqlserver</groupId>
+    <artifactId>mssql-jdbc</artifactId>
+    <version>6.2.2.jre8</version>
 </dependency>
 <dependency>
-    <groupId>com.fasterxml.jackson.core</groupId>
-    <artifactId>jackson-annotations</artifactId>
-    <version>2.8.0</version>
+    <groupId>org.codehaus.groovy</groupId>
+    <artifactId>groovy-all</artifactId>
+    <version>2.4.7</version>
 </dependency>
 <dependency>
-    <groupId>com.google.errorprone</groupId>
-    <artifactId>error_prone_annotations</artifactId>
-    <version>2.0.18</version>
-</dependency>
-<dependency>
-    <groupId>javax.transaction</groupId>
-    <artifactId>transaction-api</artifactId>
-    <version>1.1</version>
+    <groupId>com.netflix.ribbon</groupId>
+    <artifactId>ribbon-loadbalancer</artifactId>
+    <version>2.2.5</version>
 </dependency>
 <dependency>
     <groupId>org.mockito</groupId>
@@ -78,29 +58,49 @@
     <version>1.10.19</version>
 </dependency>
 <dependency>
-    <groupId>javax.servlet</groupId>
-    <artifactId>servlet-api</artifactId>
-    <version>2.5</version>
+    <groupId>com.hynnet</groupId>
+    <artifactId>json-lib</artifactId>
+    <version>2.4</version>
 </dependency>
 <dependency>
-    <groupId>com.google.guava</groupId>
-    <artifactId>guava</artifactId>
-    <version>18.0</version>
+    <groupId>com.spatial4j</groupId>
+    <artifactId>spatial4j</artifactId>
+    <version>0.5</version>
 </dependency>
 <dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-log4j12</artifactId>
-    <version>1.7.5</version>
+    <groupId>com.h2database</groupId>
+    <artifactId>h2</artifactId>
+    <version>1.3.176</version>
 </dependency>
 <dependency>
-    <groupId>org.javassist</groupId>
-    <artifactId>javassist</artifactId>
-    <version>3.21.0-GA</version>
+    <groupId>com.jcraft</groupId>
+    <artifactId>jsch.agentproxy.connector-factory</artifactId>
+    <version>0.0.7</version>
 </dependency>
 <dependency>
-    <groupId>org.apache.httpcomponents</groupId>
-    <artifactId>httpcore</artifactId>
-    <version>4.4.9</version>
+    <groupId>com.github.cbismuth</groupId>
+    <artifactId>junit-repeat-rule</artifactId>
+    <version>1.1.0</version>
+</dependency>
+<dependency>
+    <groupId>org.glassfish.jersey.media</groupId>
+    <artifactId>jersey-media-multipart</artifactId>
+    <version>2.25.1</version>
+</dependency>
+<dependency>
+    <groupId>classworlds</groupId>
+    <artifactId>classworlds</artifactId>
+    <version>1.1</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.cxf</groupId>
+    <artifactId>cxf-rt-ws-policy</artifactId>
+    <version>3.2.1</version>
+</dependency>
+<dependency>
+    <groupId>org.jvnet</groupId>
+    <artifactId>tiger-types</artifactId>
+    <version>1.4</version>
 </dependency>
 <dependency>
     <groupId>aopalliance</groupId>
@@ -108,29 +108,39 @@
     <version>1.0</version>
 </dependency>
 <dependency>
-    <groupId>javax.validation</groupId>
-    <artifactId>validation-api</artifactId>
-    <version>1.1.0.Final</version>
+    <groupId>org.apache.avro</groupId>
+    <artifactId>avro</artifactId>
+    <version>1.7.4</version>
 </dependency>
 <dependency>
-    <groupId>com.netflix.hystrix</groupId>
-    <artifactId>hystrix-core</artifactId>
-    <version>1.5.12</version>
+    <groupId>com.damnhandy</groupId>
+    <artifactId>handy-uri-templates</artifactId>
+    <version>2.1.6</version>
 </dependency>
 <dependency>
-    <groupId>com.fasterxml.jackson.module</groupId>
-    <artifactId>jackson-module-parameter-names</artifactId>
-    <version>2.9.6</version>
+    <groupId>org.glassfish.hk2.external</groupId>
+    <artifactId>aopalliance-repackaged</artifactId>
+    <version>2.4.0-b34</version>
+</dependency>
+<dependency>
+    <groupId>com.github.scopt</groupId>
+    <artifactId>scopt_2.11</artifactId>
+    <version>3.5.0</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-swf-libraries</artifactId>
+    <version>1.10.42</version>
 </dependency>
 <dependency>
     <groupId>com.fasterxml.jackson.datatype</groupId>
     <artifactId>jackson-datatype-jsr310</artifactId>
-    <version>2.9.6</version>
+    <version>2.9.5</version>
 </dependency>
 <dependency>
-    <groupId>org.apache.httpcomponents</groupId>
-    <artifactId>httpclient</artifactId>
-    <version>4.5.1</version>
+    <groupId>org.apache.activemq</groupId>
+    <artifactId>activemq-pool</artifactId>
+    <version>5.9.1</version>
 </dependency>
 <dependency>
     <groupId>com.sun.xml.bind</groupId>
@@ -143,39 +153,59 @@
     <version>2.1.10</version>
 </dependency>
 <dependency>
-    <groupId>org.latencyutils</groupId>
-    <artifactId>LatencyUtils</artifactId>
-    <version>2.0.3</version>
+    <groupId>com.jamesmurty.utils</groupId>
+    <artifactId>java-xmlbuilder</artifactId>
+    <version>1.1</version>
 </dependency>
 <dependency>
-    <groupId>org.apache.commons</groupId>
-    <artifactId>commons-pool2</artifactId>
-    <version>2.4.2</version>
+    <groupId>org.springframework.security</groupId>
+    <artifactId>spring-security-core</artifactId>
+    <version>3.2.4.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>io.springfox</groupId>
     <artifactId>springfox-spi</artifactId>
-    <version>2.9.2</version>
+    <version>2.8.0</version>
 </dependency>
 <dependency>
-    <groupId>com.google.code.gson</groupId>
-    <artifactId>gson</artifactId>
-    <version>2.2.4</version>
+    <groupId>com.google.inject.extensions</groupId>
+    <artifactId>guice-servlet</artifactId>
+    <version>4.0</version>
+</dependency>
+<dependency>
+    <groupId>c3p0</groupId>
+    <artifactId>c3p0</artifactId>
+    <version>0.8.4.5</version>
 </dependency>
 <dependency>
     <groupId>log4j</groupId>
     <artifactId>log4j</artifactId>
-    <version>1.2.16</version>
+    <version>1.2.14</version>
 </dependency>
 <dependency>
-    <groupId>commons-collections</groupId>
-    <artifactId>commons-collections</artifactId>
-    <version>3.1</version>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-netflix-ribbon</artifactId>
+    <version>2.0.2.RELEASE</version>
 </dependency>
 <dependency>
-    <groupId>antlr</groupId>
-    <artifactId>antlrall</artifactId>
-    <version>2.7.2</version>
+    <groupId>org.apache.xmlgraphics</groupId>
+    <artifactId>batik-css</artifactId>
+    <version>1.7</version>
+</dependency>
+<dependency>
+    <groupId>io.swagger</groupId>
+    <artifactId>swagger-models</artifactId>
+    <version>1.5.13</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.cxf</groupId>
+    <artifactId>cxf-rt-transports-http</artifactId>
+    <version>3.1.6</version>
+</dependency>
+<dependency>
+    <groupId>org.codehaus.plexus</groupId>
+    <artifactId>plexus-io</artifactId>
+    <version>3.0.0</version>
 </dependency>
 <dependency>
     <groupId>axis</groupId>
@@ -183,29 +213,34 @@
     <version>1.2</version>
 </dependency>
 <dependency>
+    <groupId>org.antlr</groupId>
+    <artifactId>stringtemplate</artifactId>
+    <version>3.2.1</version>
+</dependency>
+<dependency>
     <groupId>antlr</groupId>
     <artifactId>antlr</artifactId>
     <version>2.7.6</version>
 </dependency>
 <dependency>
-    <groupId>com.fasterxml.jackson.jaxrs</groupId>
-    <artifactId>jackson-jaxrs-base</artifactId>
-    <version>2.9.7</version>
+    <groupId>org.jruby.ext.posix</groupId>
+    <artifactId>jna-posix</artifactId>
+    <version>1.0.3</version>
 </dependency>
 <dependency>
-    <groupId>com.fasterxml.jackson.core</groupId>
-    <artifactId>jackson-core</artifactId>
-    <version>2.8.11</version>
+    <groupId>net.bytebuddy</groupId>
+    <artifactId>byte-buddy</artifactId>
+    <version>1.6.14</version>
 </dependency>
 <dependency>
-    <groupId>org.jboss.logging</groupId>
-    <artifactId>jboss-logging</artifactId>
-    <version>3.1.3.GA</version>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-commons</artifactId>
+    <version>2.0.2.RELEASE</version>
 </dependency>
 <dependency>
-    <groupId>org.apache.xmlbeans</groupId>
-    <artifactId>xmlbeans</artifactId>
-    <version>2.6.0</version>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.16.20</version>
 </dependency>
 <dependency>
     <groupId>com.google.j2objc</groupId>
@@ -213,34 +248,44 @@
     <version>1.1</version>
 </dependency>
 <dependency>
-    <groupId>com.google.code.findbugs</groupId>
-    <artifactId>jsr305</artifactId>
-    <version>1.3.9</version>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-beans</artifactId>
+    <version>4.3.1.RELEASE</version>
 </dependency>
 <dependency>
-    <groupId>commons-httpclient</groupId>
-    <artifactId>commons-httpclient</artifactId>
-    <version>3.1</version>
+    <groupId>org.bouncycastle</groupId>
+    <artifactId>bcprov-jdk14</artifactId>
+    <version>1.38</version>
 </dependency>
 <dependency>
-    <groupId>com.fasterxml.jackson.module</groupId>
-    <artifactId>jackson-module-jaxb-annotations</artifactId>
-    <version>2.9.7</version>
+    <groupId>com.netflix.ribbon</groupId>
+    <artifactId>ribbon-httpclient</artifactId>
+    <version>2.2.2</version>
 </dependency>
 <dependency>
-    <groupId>cglib</groupId>
-    <artifactId>cglib-nodep</artifactId>
-    <version>2.1_3</version>
+    <groupId>com.github.vlsi.compactmap</groupId>
+    <artifactId>compactmap</artifactId>
+    <version>1.2.1</version>
 </dependency>
 <dependency>
-    <groupId>com.vaadin.external.google</groupId>
-    <artifactId>android-json</artifactId>
-    <version>0.0.20131108.vaadin1</version>
+    <groupId>com.github.rholder</groupId>
+    <artifactId>guava-retrying</artifactId>
+    <version>2.0.0</version>
 </dependency>
 <dependency>
-    <groupId>org.springframework.plugin</groupId>
-    <artifactId>spring-plugin-core</artifactId>
-    <version>1.2.0.RELEASE</version>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>tomcat-annotations-api</artifactId>
+    <version>9.0.12</version>
+</dependency>
+<dependency>
+    <groupId>com.jcraft</groupId>
+    <artifactId>jsch.agentproxy.pageant</artifactId>
+    <version>0.0.7</version>
+</dependency>
+<dependency>
+    <groupId>org.mapstruct</groupId>
+    <artifactId>mapstruct-jdk8</artifactId>
+    <version>1.2.0.Final</version>
 </dependency>
 <dependency>
     <groupId>org.springframework</groupId>
@@ -248,19 +293,34 @@
     <version>4.3.18.RELEASE</version>
 </dependency>
 <dependency>
+    <groupId>org.opensaml</groupId>
+    <artifactId>opensaml-xmlsec-api</artifactId>
+    <version>3.1.1</version>
+</dependency>
+<dependency>
+    <groupId>com.github.fge</groupId>
+    <artifactId>uri-template</artifactId>
+    <version>0.9</version>
+</dependency>
+<dependency>
     <groupId>commons-dbcp</groupId>
     <artifactId>commons-dbcp</artifactId>
     <version>1.4</version>
 </dependency>
 <dependency>
-    <groupId>commons-pool</groupId>
-    <artifactId>commons-pool</artifactId>
-    <version>1.6</version>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-jcl</artifactId>
+    <version>5.1.2.RELEASE</version>
 </dependency>
 <dependency>
-    <groupId>commons-cli</groupId>
-    <artifactId>commons-cli</artifactId>
-    <version>1.4</version>
+    <groupId>com.mysema.querydsl</groupId>
+    <artifactId>querydsl-codegen</artifactId>
+    <version>3.7.4</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-ses</artifactId>
+    <version>1.10.42</version>
 </dependency>
 <dependency>
     <groupId>org.mockito</groupId>
@@ -268,29 +328,34 @@
     <version>1.10.19</version>
 </dependency>
 <dependency>
-    <groupId>javax.servlet</groupId>
-    <artifactId>javax.servlet-api</artifactId>
-    <version>3.1.0</version>
+    <groupId>com.ecwid.consul</groupId>
+    <artifactId>consul-api</artifactId>
+    <version>1.2.1</version>
 </dependency>
 <dependency>
-    <groupId>commons-logging</groupId>
-    <artifactId>commons-logging</artifactId>
-    <version>1.0.4</version>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-math3</artifactId>
+    <version>3.1.1</version>
 </dependency>
 <dependency>
-    <groupId>org.glassfish.hk2</groupId>
-    <artifactId>hk2-utils</artifactId>
-    <version>2.5.0-b32</version>
+    <groupId>com.google.guava</groupId>
+    <artifactId>listenablefuture</artifactId>
+    <version>9999.0-empty-to-avoid-conflict-with-guava</version>
 </dependency>
 <dependency>
-    <groupId>org.codehaus.mojo</groupId>
-    <artifactId>animal-sniffer-annotations</artifactId>
-    <version>1.14</version>
+    <groupId>org.apache.activemq</groupId>
+    <artifactId>activeio-core</artifactId>
+    <version>3.1.2</version>
 </dependency>
 <dependency>
-    <groupId>org.hibernate.validator</groupId>
-    <artifactId>hibernate-validator</artifactId>
-    <version>6.0.13.Final</version>
+    <groupId>org.apache.cxf</groupId>
+    <artifactId>cxf-core</artifactId>
+    <version>3.1.1</version>
+</dependency>
+<dependency>
+    <groupId>commons-lang</groupId>
+    <artifactId>commons-lang</artifactId>
+    <version>2.3</version>
 </dependency>
 <dependency>
     <groupId>axis</groupId>
@@ -303,29 +368,19 @@
     <version>1.5</version>
 </dependency>
 <dependency>
-    <groupId>ch.qos.logback</groupId>
-    <artifactId>logback-classic</artifactId>
-    <version>1.1.11</version>
+    <groupId>ca.juliusdavies</groupId>
+    <artifactId>not-yet-commons-ssl</artifactId>
+    <version>0.3.9</version>
 </dependency>
 <dependency>
-    <groupId>com.github.stephenc.jcip</groupId>
-    <artifactId>jcip-annotations</artifactId>
-    <version>1.0-1</version>
+    <groupId>org.assertj</groupId>
+    <artifactId>assertj-core</artifactId>
+    <version>2.6.0</version>
 </dependency>
 <dependency>
-    <groupId>org.apache.axis</groupId>
-    <artifactId>axis-jaxrpc</artifactId>
-    <version>1.4</version>
-</dependency>
-<dependency>
-    <groupId>org.objenesis</groupId>
-    <artifactId>objenesis</artifactId>
-    <version>2.1</version>
-</dependency>
-<dependency>
-    <groupId>org.hibernate</groupId>
-    <artifactId>hibernate-validator</artifactId>
-    <version>5.2.4.Final</version>
+    <groupId>javax.transaction</groupId>
+    <artifactId>transaction-api</artifactId>
+    <version>1.1</version>
 </dependency>
 <dependency>
     <groupId>javax.activation</groupId>
@@ -333,19 +388,559 @@
     <version>1.1</version>
 </dependency>
 <dependency>
+    <groupId>net.java.dev.jna</groupId>
+    <artifactId>jna-platform</artifactId>
+    <version>4.2.1</version>
+</dependency>
+<dependency>
+    <groupId>com.github.java-json-tools</groupId>
+    <artifactId>json-schema-validator</artifactId>
+    <version>2.2.8</version>
+</dependency>
+<dependency>
+    <groupId>com.thoughtworks.xstream</groupId>
+    <artifactId>xstream</artifactId>
+    <version>1.4.10</version>
+</dependency>
+<dependency>
+    <groupId>com.github.andrewoma.dexx</groupId>
+    <artifactId>dexx-collections</artifactId>
+    <version>0.2</version>
+</dependency>
+<dependency>
+    <groupId>asm</groupId>
+    <artifactId>asm-util</artifactId>
+    <version>3.2</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>4.3.16.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.security</groupId>
+    <artifactId>spring-security-crypto</artifactId>
+    <version>5.0.8.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>javax.websocket</groupId>
+    <artifactId>javax.websocket-api</artifactId>
+    <version>1.0</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>1.6.1</version>
+</dependency>
+<dependency>
+    <groupId>com.github.fge</groupId>
+    <artifactId>json-schema-validator</artifactId>
+    <version>2.2.6</version>
+</dependency>
+<dependency>
+    <groupId>org.glassfish.jersey.media</groupId>
+    <artifactId>jersey-media-json-jackson</artifactId>
+    <version>2.26</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-actuator</artifactId>
+    <version>2.0.5.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>com.github.jknack</groupId>
+    <artifactId>handlebars</artifactId>
+    <version>4.0.6</version>
+</dependency>
+<dependency>
+    <groupId>io.vertx</groupId>
+    <artifactId>vertx-core</artifactId>
+    <version>3.5.0</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.tomcat.embed</groupId>
+    <artifactId>tomcat-embed-websocket</artifactId>
+    <version>8.5.29</version>
+</dependency>
+<dependency>
+    <groupId>com.googlecode.libphonenumber</groupId>
+    <artifactId>libphonenumber</artifactId>
+    <version>6.2</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.module</groupId>
+    <artifactId>jackson-module-afterburner</artifactId>
+    <version>2.9.1</version>
+</dependency>
+<dependency>
+    <groupId>com.github.junrar</groupId>
+    <artifactId>junrar</artifactId>
+    <version>0.7</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.lucene</groupId>
+    <artifactId>lucene-analyzers-common</artifactId>
+    <version>7.2.1</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.datatype</groupId>
+    <artifactId>jackson-datatype-joda</artifactId>
+    <version>2.4.5</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-elasticbeanstalk</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>log4j-over-slf4j</artifactId>
+    <version>1.7.25</version>
+</dependency>
+<dependency>
+    <groupId>org.codehaus.plexus</groupId>
+    <artifactId>plexus-component-annotations</artifactId>
+    <version>1.5.5</version>
+</dependency>
+<dependency>
+    <groupId>asm</groupId>
+    <artifactId>asm</artifactId>
+    <version>1.5.3</version>
+</dependency>
+<dependency>
+    <groupId>com.mysema.querydsl</groupId>
+    <artifactId>querydsl-core</artifactId>
+    <version>3.7.4</version>
+</dependency>
+<dependency>
+    <groupId>javax.xml</groupId>
+    <artifactId>jaxrpc-api</artifactId>
+    <version>1.1</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.ws.commons.schema</groupId>
+    <artifactId>XmlSchema</artifactId>
+    <version>1.4.7</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.datatype</groupId>
+    <artifactId>jackson-datatype-jdk7</artifactId>
+    <version>2.6.3</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.datatype</groupId>
+    <artifactId>jackson-datatype-jdk8</artifactId>
+    <version>2.8.4</version>
+</dependency>
+<dependency>
+    <groupId>io.swagger</groupId>
+    <artifactId>swagger-core</artifactId>
+    <version>1.5.21</version>
+</dependency>
+<dependency>
+    <groupId>asm</groupId>
+    <artifactId>asm-analysis</artifactId>
+    <version>3.2</version>
+</dependency>
+<dependency>
+    <groupId>commons-beanutils</groupId>
+    <artifactId>commons-beanutils</artifactId>
+    <version>1.7.0</version>
+</dependency>
+<dependency>
+    <groupId>com.netflix.netflix-commons</groupId>
+    <artifactId>netflix-statistics</artifactId>
+    <version>0.1.1</version>
+</dependency>
+<dependency>
+    <groupId>io.netty</groupId>
+    <artifactId>netty-codec</artifactId>
+    <version>4.1.15.Final</version>
+</dependency>
+<dependency>
+    <groupId>com.jcraft</groupId>
+    <artifactId>jsch.agentproxy.usocket-nc</artifactId>
+    <version>0.0.7</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-cloudsearch</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-glacier</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-lambda</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>net.minidev</groupId>
+    <artifactId>accessors-smart</artifactId>
+    <version>1.1</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>jcl-over-slf4j</artifactId>
+    <version>1.7.10</version>
+</dependency>
+<dependency>
+    <groupId>net.sourceforge.nekohtml</groupId>
+    <artifactId>nekohtml</artifactId>
+    <version>1.9.22</version>
+</dependency>
+<dependency>
+    <groupId>org.joda</groupId>
+    <artifactId>joda-convert</artifactId>
+    <version>1.2</version>
+</dependency>
+<dependency>
+    <groupId>com.itextpdf</groupId>
+    <artifactId>io</artifactId>
+    <version>7.0.2</version>
+</dependency>
+<dependency>
+    <groupId>org.eclipse.jetty</groupId>
+    <artifactId>jetty-server</artifactId>
+    <version>9.4.11.v20180605</version>
+</dependency>
+<dependency>
+    <groupId>com.itextpdf</groupId>
+    <artifactId>layout</artifactId>
+    <version>7.0.2</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.lucene</groupId>
+    <artifactId>lucene-queries</artifactId>
+    <version>4.5.1</version>
+</dependency>
+<dependency>
+    <groupId>org.glassfish.hk2.external</groupId>
+    <artifactId>asm-all-repackaged</artifactId>
+    <version>2.5.0-b32</version>
+</dependency>
+<dependency>
+    <groupId>com.google.errorprone</groupId>
+    <artifactId>error_prone_annotations</artifactId>
+    <version>2.0.18</version>
+</dependency>
+<dependency>
+    <groupId>bouncycastle</groupId>
+    <artifactId>bcmail-jdk14</artifactId>
+    <version>138</version>
+</dependency>
+<dependency>
+    <groupId>asm</groupId>
+    <artifactId>asm-tree</artifactId>
+    <version>3.3.1</version>
+</dependency>
+<dependency>
+    <groupId>commons-net</groupId>
+    <artifactId>commons-net</artifactId>
+    <version>3.6</version>
+</dependency>
+<dependency>
+    <groupId>org.sonatype.plexus</groupId>
+    <artifactId>plexus-cipher</artifactId>
+    <version>1.4</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.xmlgraphics</groupId>
+    <artifactId>xmlgraphics-commons</artifactId>
+    <version>1.3.1</version>
+</dependency>
+<dependency>
+    <groupId>org.sonatype.plexus</groupId>
+    <artifactId>plexus-sec-dispatcher</artifactId>
+    <version>1.3</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>tomcat-api</artifactId>
+    <version>9.0.12</version>
+</dependency>
+<dependency>
+    <groupId>org.glassfish</groupId>
+    <artifactId>javax.el</artifactId>
+    <version>3.0.0</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-tomcat</artifactId>
+    <version>2.0.5.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>ecs</groupId>
+    <artifactId>ecs</artifactId>
+    <version>1.4.2</version>
+</dependency>
+<dependency>
+    <groupId>com.netflix.hystrix</groupId>
+    <artifactId>hystrix-metrics-event-stream</artifactId>
+    <version>1.5.12</version>
+</dependency>
+<dependency>
+    <groupId>com.lmax</groupId>
+    <artifactId>disruptor</artifactId>
+    <version>3.3.0</version>
+</dependency>
+<dependency>
+    <groupId>io.netty</groupId>
+    <artifactId>netty-common</artifactId>
+    <version>4.1.29.Final</version>
+</dependency>
+<dependency>
+    <groupId>javax.validation</groupId>
+    <artifactId>validation-api</artifactId>
+    <version>1.0.0.GA</version>
+</dependency>
+<dependency>
+    <groupId>com.google.zxing</groupId>
+    <artifactId>core</artifactId>
+    <version>2.3.0</version>
+</dependency>
+<dependency>
+    <groupId>com.ibm.jbatch</groupId>
+    <artifactId>com.ibm.jbatch-tck-spi</artifactId>
+    <version>1.0</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.module</groupId>
+    <artifactId>jackson-module-parameter-names</artifactId>
+    <version>2.9.5</version>
+</dependency>
+<dependency>
+    <groupId>commons-jexl</groupId>
+    <artifactId>commons-jexl</artifactId>
+    <version>1.1</version>
+</dependency>
+<dependency>
+    <groupId>com.hubspot</groupId>
+    <artifactId>HorizonApache</artifactId>
+    <version>0.0.7</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.cxf</groupId>
+    <artifactId>cxf-rt-frontend-jaxrs</artifactId>
+    <version>3.2.5</version>
+</dependency>
+<dependency>
+    <groupId>com.internetitem</groupId>
+    <artifactId>write-properties-file-maven-plugin</artifactId>
+    <version>1.0.1</version>
+</dependency>
+<dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>failureaccess</artifactId>
+    <version>1.0</version>
+</dependency>
+<dependency>
+    <groupId>com.eclipsesource.j2v8</groupId>
+    <artifactId>j2v8_macosx_x86_64</artifactId>
+    <version>4.6.0</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-autoscaling</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-to-slf4j</artifactId>
+    <version>2.10.0</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-pool2</artifactId>
+    <version>2.4.2</version>
+</dependency>
+<dependency>
+    <groupId>com.jcraft</groupId>
+    <artifactId>jsch.agentproxy.core</artifactId>
+    <version>0.0.7</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>3.16</version>
+</dependency>
+<dependency>
+    <groupId>org.jdom</groupId>
+    <artifactId>jdom2</artifactId>
+    <version>2.0.5</version>
+</dependency>
+<dependency>
+    <groupId>commons-fileupload</groupId>
+    <artifactId>commons-fileupload</artifactId>
+    <version>1.0</version>
+</dependency>
+<dependency>
+    <groupId>com.sun.jersey</groupId>
+    <artifactId>jersey-client</artifactId>
+    <version>1.19.4</version>
+</dependency>
+<dependency>
+    <groupId>jdom</groupId>
+    <artifactId>jdom</artifactId>
+    <version>1.0</version>
+</dependency>
+<dependency>
+    <groupId>antlr</groupId>
+    <artifactId>antlrall</artifactId>
+    <version>2.7.2</version>
+</dependency>
+<dependency>
+    <groupId>jakarta-regexp</groupId>
+    <artifactId>jakarta-regexp</artifactId>
+    <version>1.4</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.xmlgraphics</groupId>
+    <artifactId>batik-script</artifactId>
+    <version>1.9</version>
+</dependency>
+<dependency>
+    <groupId>cglib</groupId>
+    <artifactId>cglib</artifactId>
+    <version>2.1_3</version>
+</dependency>
+<dependency>
+    <groupId>org.jboss.logging</groupId>
+    <artifactId>jboss-logging</artifactId>
+    <version>3.1.3.GA</version>
+</dependency>
+<dependency>
+    <groupId>com.eclipsesource.j2v8</groupId>
+    <artifactId>j2v8_win32_x86</artifactId>
+    <version>4.6.0</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.dataformat</groupId>
+    <artifactId>jackson-dataformat-smile</artifactId>
+    <version>2.9.0</version>
+</dependency>
+<dependency>
+    <groupId>commons-httpclient</groupId>
+    <artifactId>commons-httpclient</artifactId>
+    <version>3.1</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-webmvc</artifactId>
+    <version>3.2.4.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.xmlgraphics</groupId>
+    <artifactId>batik-ext</artifactId>
+    <version>1.9</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-workspaces</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>org.glassfish.jersey.ext</groupId>
+    <artifactId>jersey-spring3</artifactId>
+    <version>2.25.1</version>
+</dependency>
+<dependency>
+    <groupId>org.opensaml</groupId>
+    <artifactId>opensaml-xmlsec-impl</artifactId>
+    <version>3.1.1</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.security</groupId>
+    <artifactId>spring-security-jwt</artifactId>
+    <version>1.0.9.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>com.github.jknack</groupId>
+    <artifactId>handlebars-helpers</artifactId>
+    <version>4.0.6</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpmime</artifactId>
+    <version>4.5.3</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-devicefarm</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-core</artifactId>
+    <version>3.2.4.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-aop</artifactId>
+    <version>4.3.17.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-netflix-core</artifactId>
+    <version>2.0.2.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-kinesis</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-json</artifactId>
+    <version>2.0.5.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>commons-logging</groupId>
+    <artifactId>commons-logging</artifactId>
+    <version>1.0.4</version>
+</dependency>
+<dependency>
+    <groupId>org.glassfish.hk2</groupId>
+    <artifactId>hk2-utils</artifactId>
+    <version>2.4.0-b34</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.cxf</groupId>
+    <artifactId>cxf-rt-bindings-soap</artifactId>
+    <version>3.2.1</version>
+</dependency>
+<dependency>
+    <groupId>commons-cli</groupId>
+    <artifactId>commons-cli</artifactId>
+    <version>1.4</version>
+</dependency>
+<dependency>
     <groupId>io.springfox</groupId>
     <artifactId>springfox-core</artifactId>
     <version>2.9.2</version>
 </dependency>
 <dependency>
-    <groupId>classworlds</groupId>
-    <artifactId>classworlds</artifactId>
-    <version>1.1</version>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-ssm</artifactId>
+    <version>1.10.42</version>
 </dependency>
 <dependency>
-    <groupId>dom4j</groupId>
-    <artifactId>dom4j</artifactId>
-    <version>1.6.1</version>
+    <groupId>com.fasterxml.woodstox</groupId>
+    <artifactId>woodstox-core</artifactId>
+    <version>5.0.3</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-machinelearning</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>org.beanshell</groupId>
+    <artifactId>bsh-core</artifactId>
+    <version>2.0b4</version>
 </dependency>
 <dependency>
     <groupId>axis</groupId>
@@ -353,14 +948,1229 @@
     <version>1.2</version>
 </dependency>
 <dependency>
+    <groupId>org.apache.maven</groupId>
+    <artifactId>maven-artifact-manager</artifactId>
+    <version>2.2.1</version>
+</dependency>
+<dependency>
+    <groupId>com.jcraft</groupId>
+    <artifactId>jsch.agentproxy.svnkit-trilead-ssh2</artifactId>
+    <version>0.0.7</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.axis</groupId>
+    <artifactId>axis-saaj</artifactId>
+    <version>1.4</version>
+</dependency>
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.tiles</groupId>
+    <artifactId>tiles-core</artifactId>
+    <version>2.2.2</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.maven.scm</groupId>
+    <artifactId>maven-scm-provider-svn-commons</artifactId>
+    <version>1.4</version>
+</dependency>
+<dependency>
+    <groupId>com.jayway.jsonpath</groupId>
+    <artifactId>json-path</artifactId>
+    <version>0.9.1</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-iot</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.xmlgraphics</groupId>
+    <artifactId>batik-rasterizer</artifactId>
+    <version>1.9</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.jaxrs</groupId>
+    <artifactId>jackson-jaxrs-json-provider</artifactId>
+    <version>2.5.4</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.10.0</version>
+</dependency>
+<dependency>
+    <groupId>io.netty</groupId>
+    <artifactId>netty-codec-socks</artifactId>
+    <version>4.1.15.Final</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.maven</groupId>
+    <artifactId>maven-plugin-api</artifactId>
+    <version>3.0.5</version>
+</dependency>
+<dependency>
+    <groupId>commons-logging</groupId>
+    <artifactId>commons-logging-api</artifactId>
+    <version>1.1</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-netflix-archaius</artifactId>
+    <version>2.0.2.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>jstl</groupId>
+    <artifactId>jstl</artifactId>
+    <version>1.1.2</version>
+</dependency>
+<dependency>
+    <groupId>org.glassfish.hk2</groupId>
+    <artifactId>hk2</artifactId>
+    <version>2.5.0-b42</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>com.netflix.netflix-commons</groupId>
+    <artifactId>netflix-commons-util</artifactId>
+    <version>0.1.1</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-tx</artifactId>
+    <version>4.3.6.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>com.codahale.metrics</groupId>
+    <artifactId>metrics-core</artifactId>
+    <version>3.0.2</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-slf4j-impl</artifactId>
+    <version>2.7</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-api-gateway</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>1.3.2</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.3.2</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.xmlgraphics</groupId>
+    <artifactId>batik-svggen</artifactId>
+    <version>1.9</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.0.4</version>
+</dependency>
+<dependency>
     <groupId>asm</groupId>
+    <artifactId>asm-commons</artifactId>
+    <version>3.3.1</version>
+</dependency>
+<dependency>
+    <groupId>commons-digester</groupId>
+    <artifactId>commons-digester</artifactId>
+    <version>1.4.1</version>
+</dependency>
+<dependency>
+    <groupId>com.google.inject.extensions</groupId>
+    <artifactId>guice-multibindings</artifactId>
+    <version>4.0</version>
+</dependency>
+<dependency>
+    <groupId>org.codehaus.plexus</groupId>
+    <artifactId>plexus-i18n</artifactId>
+    <version>1.0-beta-7</version>
+</dependency>
+<dependency>
+    <groupId>org.codehaus.jackson</groupId>
+    <artifactId>jackson-xc</artifactId>
+    <version>1.9.2</version>
+</dependency>
+<dependency>
+    <groupId>commons-discovery</groupId>
+    <artifactId>commons-discovery</artifactId>
+    <version>0.2</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-orm</artifactId>
+    <version>4.3.18.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>javax.mail</groupId>
+    <artifactId>mail</artifactId>
+    <version>1.4.2</version>
+</dependency>
+<dependency>
+    <groupId>io.swagger</groupId>
+    <artifactId>swagger-annotations</artifactId>
+    <version>1.5.21</version>
+</dependency>
+<dependency>
+    <groupId>com.eclipsesource.j2v8</groupId>
+    <artifactId>j2v8_linux_x86_64</artifactId>
+    <version>4.6.0</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.data</groupId>
+    <artifactId>spring-data-jpa</artifactId>
+    <version>1.11.0.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.module</groupId>
+    <artifactId>jackson-module-jsonSchema</artifactId>
+    <version>2.1.0</version>
+</dependency>
+<dependency>
+    <groupId>com.google.http-client</groupId>
+    <artifactId>google-http-client-jackson2</artifactId>
+    <version>1.23.0</version>
+</dependency>
+<dependency>
+    <groupId>com.mysema.querydsl</groupId>
+    <artifactId>querydsl-apt</artifactId>
+    <version>3.7.4</version>
+</dependency>
+<dependency>
+    <groupId>com.jcraft</groupId>
+    <artifactId>jzlib</artifactId>
+    <version>1.1.3</version>
+</dependency>
+<dependency>
+    <groupId>com.github.fge</groupId>
+    <artifactId>json-patch</artifactId>
+    <version>1.9</version>
+</dependency>
+<dependency>
+    <groupId>com.lowagie</groupId>
+    <artifactId>itext</artifactId>
+    <version>2.1.7</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-annotations</artifactId>
+    <version>2.0.4</version>
+</dependency>
+<dependency>
+    <groupId>com.squareup.okhttp3</groupId>
+    <artifactId>okhttp</artifactId>
+    <version>3.10.0</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-ec2</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.cxf</groupId>
+    <artifactId>cxf-rt-frontend-jaxws</artifactId>
+    <version>3.2.1</version>
+</dependency>
+<dependency>
+    <groupId>org.ow2.asm</groupId>
     <artifactId>asm</artifactId>
+    <version>6.0</version>
+</dependency>
+<dependency>
+    <groupId>io.netty</groupId>
+    <artifactId>netty-resolver</artifactId>
+    <version>4.1.16.Final</version>
+</dependency>
+<dependency>
+    <groupId>castor</groupId>
+    <artifactId>castor</artifactId>
+    <version>0.9.4.2</version>
+</dependency>
+<dependency>
+    <groupId>net.jpountz.lz4</groupId>
+    <artifactId>lz4</artifactId>
+    <version>1.2.0</version>
+</dependency>
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>servlet-api</artifactId>
+    <version>2.4.public_draft</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-cloudformation</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>org.opensaml</groupId>
+    <artifactId>openws</artifactId>
+    <version>1.4.2-1</version>
+</dependency>
+<dependency>
+    <groupId>com.netflix.hystrix</groupId>
+    <artifactId>hystrix-javanica</artifactId>
+    <version>1.5.12</version>
+</dependency>
+<dependency>
+    <groupId>commons-collections</groupId>
+    <artifactId>commons-collections</artifactId>
     <version>3.1</version>
+</dependency>
+<dependency>
+    <groupId>com.netflix.netflix-commons</groupId>
+    <artifactId>netflix-eventbus</artifactId>
+    <version>0.3.0</version>
+</dependency>
+<dependency>
+    <groupId>com.mysema.codegen</groupId>
+    <artifactId>codegen</artifactId>
+    <version>0.6.8</version>
+</dependency>
+<dependency>
+    <groupId>com.netflix.hystrix</groupId>
+    <artifactId>hystrix-core</artifactId>
+    <version>1.5.12</version>
+</dependency>
+<dependency>
+    <groupId>javax.cache</groupId>
+    <artifactId>cache-api</artifactId>
+    <version>1.1.0</version>
+</dependency>
+<dependency>
+    <groupId>org.kie</groupId>
+    <artifactId>kie-api</artifactId>
+    <version>6.5.0.Final</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+    <version>4.5.1</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.security</groupId>
+    <artifactId>spring-security-config</artifactId>
+    <version>3.2.4.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>com.netflix.ribbon</groupId>
+    <artifactId>ribbon</artifactId>
+    <version>2.2.5</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.ldap</groupId>
+    <artifactId>spring-ldap-core</artifactId>
+    <version>2.3.2.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>org.latencyutils</groupId>
+    <artifactId>LatencyUtils</artifactId>
+    <version>2.0.3</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.lucene</groupId>
+    <artifactId>lucene-core</artifactId>
+    <version>4.5.1</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-logging</artifactId>
+    <version>2.0.1.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>java2html</groupId>
+    <artifactId>j2h</artifactId>
+    <version>1.3.1</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.maven</groupId>
+    <artifactId>maven-settings</artifactId>
+    <version>3.0.5</version>
+</dependency>
+<dependency>
+    <groupId>javax.mail</groupId>
+    <artifactId>mailapi</artifactId>
+    <version>1.4.2</version>
+</dependency>
+<dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.2.2</version>
+</dependency>
+<dependency>
+    <groupId>org.codehaus.plexus</groupId>
+    <artifactId>plexus-classworlds</artifactId>
+    <version>2.5.2</version>
+</dependency>
+<dependency>
+    <groupId>com.netflix.hystrix</groupId>
+    <artifactId>hystrix-serialization</artifactId>
+    <version>1.5.12</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter</artifactId>
+    <version>2.0.2.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>com.thoughtworks.paranamer</groupId>
+    <artifactId>paranamer</artifactId>
+    <version>2.7</version>
+</dependency>
+<dependency>
+    <groupId>com.github.dblock.waffle</groupId>
+    <artifactId>waffle-jna</artifactId>
+    <version>1.8.1</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-inspector</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>com.esotericsoftware</groupId>
+    <artifactId>minlog</artifactId>
+    <version>1.3.0</version>
+</dependency>
+<dependency>
+    <groupId>com.microsoft.azure</groupId>
+    <artifactId>azure-storage</artifactId>
+    <version>7.0.0</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-collections4</artifactId>
+    <version>4.1</version>
+</dependency>
+<dependency>
+    <groupId>org.aspectj</groupId>
+    <artifactId>aspectjweaver</artifactId>
+    <version>1.8.13</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.jaxrs</groupId>
+    <artifactId>jackson-jaxrs-base</artifactId>
+    <version>2.8.11</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-core</artifactId>
+    <version>2.0.4</version>
+</dependency>
+<dependency>
+    <groupId>org.ow2.asm</groupId>
+    <artifactId>asm-commons</artifactId>
+    <version>5.0.3</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-opsworks</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>net.sourceforge.jtds</groupId>
+    <artifactId>jtds</artifactId>
+    <version>1.2.2</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-cognitoidentity</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.tomcat.embed</groupId>
+    <artifactId>tomcat-embed-el</artifactId>
+    <version>9.0.13</version>
 </dependency>
 <dependency>
     <groupId>com.github.jnr</groupId>
     <artifactId>jnr-x86asm</artifactId>
     <version>1.0.2</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-aspects</artifactId>
+    <version>4.3.18.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>org.jsoup</groupId>
+    <artifactId>jsoup</artifactId>
+    <version>1.11.2</version>
+</dependency>
+<dependency>
+    <groupId>org.mongodb</groupId>
+    <artifactId>mongo-java-driver</artifactId>
+    <version>3.5.0</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.module</groupId>
+    <artifactId>jackson-module-jaxb-annotations</artifactId>
+    <version>2.6.5</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.xmlgraphics</groupId>
+    <artifactId>batik-codec</artifactId>
+    <version>1.9</version>
+</dependency>
+<dependency>
+    <groupId>com.esotericsoftware</groupId>
+    <artifactId>kryo-shaded</artifactId>
+    <version>3.0.3</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.maven</groupId>
+    <artifactId>maven-builder-support</artifactId>
+    <version>3.5.2</version>
+</dependency>
+<dependency>
+    <groupId>org.scala-lang</groupId>
+    <artifactId>scala-library</artifactId>
+    <version>2.11.8</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.maven</groupId>
+    <artifactId>maven-profile</artifactId>
+    <version>2.2.1</version>
+</dependency>
+<dependency>
+    <groupId>com.netflix.ribbon</groupId>
+    <artifactId>ribbon-transport</artifactId>
+    <version>2.2.5</version>
+</dependency>
+<dependency>
+    <groupId>com.github.ben-manes.caffeine</groupId>
+    <artifactId>caffeine</artifactId>
+    <version>2.3.5</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.cxf</groupId>
+    <artifactId>cxf-rt-transports-http-jetty</artifactId>
+    <version>3.2.1</version>
+</dependency>
+<dependency>
+    <groupId>net.bytebuddy</groupId>
+    <artifactId>byte-buddy-agent</artifactId>
+    <version>1.9.5</version>
+</dependency>
+<dependency>
+    <groupId>org.bouncycastle</groupId>
+    <artifactId>bcpkix-jdk15on</artifactId>
+    <version>1.60</version>
+</dependency>
+<dependency>
+    <groupId>com.google.protobuf</groupId>
+    <artifactId>protobuf-java-util</artifactId>
+    <version>3.6.1</version>
+</dependency>
+<dependency>
+    <groupId>com.hynnet</groupId>
+    <artifactId>sqljdbc4-chs</artifactId>
+    <version>4.0.2206.100</version>
+</dependency>
+<dependency>
+    <groupId>ch.qos.logback</groupId>
+    <artifactId>logback-access</artifactId>
+    <version>1.2.3</version>
+</dependency>
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>javax.servlet-api</artifactId>
+    <version>3.1.0</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.dataformat</groupId>
+    <artifactId>jackson-dataformat-xml</artifactId>
+    <version>2.9.6</version>
+</dependency>
+<dependency>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>animal-sniffer-annotations</artifactId>
+    <version>1.14</version>
+</dependency>
+<dependency>
+    <groupId>com.google.code.findbugs</groupId>
+    <artifactId>annotations</artifactId>
+    <version>2.0.0</version>
+</dependency>
+<dependency>
+    <groupId>org.glassfish.hk2</groupId>
+    <artifactId>hk2-config</artifactId>
+    <version>2.5.0-b32</version>
+</dependency>
+<dependency>
+    <groupId>org.opensaml</groupId>
+    <artifactId>opensaml-profile-api</artifactId>
+    <version>3.1.1</version>
+</dependency>
+<dependency>
+    <groupId>org.codehaus.plexus</groupId>
+    <artifactId>plexus-container-default</artifactId>
+    <version>1.7.1</version>
+</dependency>
+<dependency>
+    <groupId>io.netty</groupId>
+    <artifactId>netty-buffer</artifactId>
+    <version>4.0.27.Final</version>
+</dependency>
+<dependency>
+    <groupId>org.eclipse.jetty</groupId>
+    <artifactId>jetty-servlet</artifactId>
+    <version>9.4.7.v20170914</version>
+</dependency>
+<dependency>
+    <groupId>com.aragost.javahg</groupId>
+    <artifactId>javahg</artifactId>
+    <version>0.4</version>
+</dependency>
+<dependency>
+    <groupId>org.objenesis</groupId>
+    <artifactId>objenesis</artifactId>
+    <version>2.1</version>
+</dependency>
+<dependency>
+    <groupId>net.sf.ezmorph</groupId>
+    <artifactId>ezmorph</artifactId>
+    <version>1.0.6</version>
+</dependency>
+<dependency>
+    <groupId>ch.ethz.ganymed</groupId>
+    <artifactId>ganymed-ssh2</artifactId>
+    <version>262</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.10.0</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-codepipeline</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>org.eclipse.jetty</groupId>
+    <artifactId>jetty-util</artifactId>
+    <version>9.2.11.v20150529</version>
+</dependency>
+<dependency>
+    <groupId>io.reactivex</groupId>
+    <artifactId>rxnetty</artifactId>
+    <version>0.4.9</version>
+</dependency>
+<dependency>
+    <groupId>com.netflix.archaius</groupId>
+    <artifactId>archaius-core</artifactId>
+    <version>0.4.1</version>
+</dependency>
+<dependency>
+    <groupId>io.netty</groupId>
+    <artifactId>netty-handler</artifactId>
+    <version>4.1.16.Final</version>
+</dependency>
+<dependency>
+    <groupId>com.mysema.commons</groupId>
+    <artifactId>mysema-commons-lang</artifactId>
+    <version>0.2.4</version>
+</dependency>
+<dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>guava-jdk5</artifactId>
+    <version>17.0</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-directconnect</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>org.mortbay.jetty</groupId>
+    <artifactId>servlet-api</artifactId>
+    <version>2.5-20081211</version>
+</dependency>
+<dependency>
+    <groupId>com.sun.jersey.contribs</groupId>
+    <artifactId>jersey-apache-client4</artifactId>
+    <version>1.19.1</version>
+</dependency>
+<dependency>
+    <groupId>com.google.oauth-client</groupId>
+    <artifactId>google-oauth-client</artifactId>
+    <version>1.21.0</version>
+</dependency>
+<dependency>
+    <groupId>com.ibm.icu</groupId>
+    <artifactId>icu4j</artifactId>
+    <version>57.1</version>
+</dependency>
+<dependency>
+    <groupId>io.dropwizard.metrics</groupId>
+    <artifactId>metrics-core</artifactId>
+    <version>3.1.2</version>
+</dependency>
+<dependency>
+    <groupId>javax.persistence</groupId>
+    <artifactId>persistence-api</artifactId>
+    <version>1.0</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-exec</artifactId>
+    <version>1.3</version>
+</dependency>
+<dependency>
+    <groupId>com.datadoghq</groupId>
+    <artifactId>java-dogstatsd-client</artifactId>
+    <version>2.1.1</version>
+</dependency>
+<dependency>
+    <groupId>org.glassfish.hk2</groupId>
+    <artifactId>class-model</artifactId>
+    <version>2.5.0-b32</version>
+</dependency>
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>jstl</artifactId>
+    <version>1.2</version>
+</dependency>
+<dependency>
+    <groupId>com.github.virtuald</groupId>
+    <artifactId>curvesapi</artifactId>
+    <version>1.04</version>
+</dependency>
+<dependency>
+    <groupId>javax.ws.rs</groupId>
+    <artifactId>javax.ws.rs-api</artifactId>
+    <version>2.0</version>
+</dependency>
+<dependency>
+    <groupId>com.google.api-client</groupId>
+    <artifactId>google-api-client</artifactId>
+    <version>1.21.0</version>
+</dependency>
+<dependency>
+    <groupId>org.jvnet</groupId>
+    <artifactId>animal-sniffer-annotation</artifactId>
+    <version>1.0</version>
+</dependency>
+<dependency>
+    <groupId>org.glassfish.jersey.ext</groupId>
+    <artifactId>jersey-entity-filtering</artifactId>
+    <version>2.26</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.maven</groupId>
+    <artifactId>maven-model</artifactId>
+    <version>3.0.5</version>
+</dependency>
+<dependency>
+    <groupId>com.google.http-client</groupId>
+    <artifactId>google-http-client-protobuf</artifactId>
+    <version>1.20.0</version>
+</dependency>
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>3.8.1</version>
+</dependency>
+<dependency>
+    <groupId>com.infradna.tool</groupId>
+    <artifactId>bridge-method-annotation</artifactId>
+    <version>1.13</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.xmlgraphics</groupId>
+    <artifactId>batik-gvt</artifactId>
+    <version>1.9</version>
+</dependency>
+<dependency>
+    <groupId>com.squareup.okio</groupId>
+    <artifactId>okio</artifactId>
+    <version>1.13.0</version>
+</dependency>
+<dependency>
+    <groupId>backport-util-concurrent</groupId>
+    <artifactId>backport-util-concurrent</artifactId>
+    <version>3.1</version>
+</dependency>
+<dependency>
+    <groupId>com.nimbusds</groupId>
+    <artifactId>nimbus-jose-jwt</artifactId>
+    <version>3.1.2</version>
+</dependency>
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger-common</artifactId>
+    <version>2.7.0</version>
+</dependency>
+<dependency>
+    <groupId>com.beust</groupId>
+    <artifactId>jcommander</artifactId>
+    <version>1.27</version>
+</dependency>
+<dependency>
+    <groupId>org.ow2.asm</groupId>
+    <artifactId>asm-analysis</artifactId>
+    <version>5.0.3</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.maven</groupId>
+    <artifactId>maven-model-builder</artifactId>
+    <version>3.0.5</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-route53</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>ch.qos.logback</groupId>
+    <artifactId>logback-core</artifactId>
+    <version>1.1.11</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.neethi</groupId>
+    <artifactId>neethi</artifactId>
+    <version>3.1.0</version>
+</dependency>
+<dependency>
+    <groupId>org.glassfish.jersey.core</groupId>
+    <artifactId>jersey-client</artifactId>
+    <version>2.22.2</version>
+</dependency>
+<dependency>
+    <groupId>axis</groupId>
+    <artifactId>axis-ant</artifactId>
+    <version>1.2</version>
+</dependency>
+<dependency>
+    <groupId>com.netflix.netflix-commons</groupId>
+    <artifactId>netflix-infix</artifactId>
+    <version>0.3.0</version>
+</dependency>
+<dependency>
+    <groupId>org.eclipse.jgit</groupId>
+    <artifactId>org.eclipse.jgit</artifactId>
+    <version>4.10.0.201712302008-r</version>
+</dependency>
+<dependency>
+    <groupId>com.drewnoakes</groupId>
+    <artifactId>metadata-extractor</artifactId>
+    <version>2.4.0-beta-1</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.cxf</groupId>
+    <artifactId>cxf-rt-ws-addr</artifactId>
+    <version>3.2.1</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-dynamodb</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>com.google.http-client</groupId>
+    <artifactId>google-http-client</artifactId>
+    <version>1.21.0</version>
+</dependency>
+<dependency>
+    <groupId>com.jcraft</groupId>
+    <artifactId>jsch.agentproxy.usocket-jna</artifactId>
+    <version>0.0.7</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-security</artifactId>
+    <version>2.0.5.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-expression</artifactId>
+    <version>5.0.5.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-importexport</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>com.google.collections</groupId>
+    <artifactId>google-collections</artifactId>
+    <version>1.0</version>
+</dependency>
+<dependency>
+    <groupId>com.jcraft</groupId>
+    <artifactId>jsch</artifactId>
+    <version>0.1.46</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-context</artifactId>
+    <version>2.0.2.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>activesoap</groupId>
+    <artifactId>relaxngDatatype</artifactId>
+    <version>20050407</version>
+</dependency>
+<dependency>
+    <groupId>com.google.re2j</groupId>
+    <artifactId>re2j</artifactId>
+    <version>1.2</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-sns</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>io.netty</groupId>
+    <artifactId>netty-codec-http</artifactId>
+    <version>4.1.16.Final</version>
+</dependency>
+<dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>guava</artifactId>
+    <version>11.0.2</version>
+</dependency>
+<dependency>
+    <groupId>org.glassfish.jersey.media</groupId>
+    <artifactId>jersey-media-jaxb</artifactId>
+    <version>2.22.2</version>
+</dependency>
+<dependency>
+    <groupId>com.mchange</groupId>
+    <artifactId>c3p0</artifactId>
+    <version>0.9.5.2</version>
+</dependency>
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20090211</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.xbean</groupId>
+    <artifactId>xbean-reflect</artifactId>
+    <version>3.7</version>
+</dependency>
+<dependency>
+    <groupId>org.jboss.spec.javax.annotation</groupId>
+    <artifactId>jboss-annotations-api_1.2_spec</artifactId>
+    <version>1.0.0.Final</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpcore</artifactId>
+    <version>4.4.10</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.tomcat.embed</groupId>
+    <artifactId>tomcat-embed-core</artifactId>
+    <version>8.5.29</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.maven</groupId>
+    <artifactId>maven-repository-metadata</artifactId>
+    <version>2.2.1</version>
+</dependency>
+<dependency>
+    <groupId>com.github.jnr</groupId>
+    <artifactId>jnr-posix</artifactId>
+    <version>3.0.12</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>1.7.25</version>
+</dependency>
+<dependency>
+    <groupId>javax.persistence</groupId>
+    <artifactId>javax.persistence-api</artifactId>
+    <version>2.2</version>
+</dependency>
+<dependency>
+    <groupId>com.carrotsearch</groupId>
+    <artifactId>java-sizeof</artifactId>
+    <version>0.0.4</version>
+</dependency>
+<dependency>
+    <groupId>com.nimbusds</groupId>
+    <artifactId>lang-tag</artifactId>
+    <version>1.4.4</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-datapipeline</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-kms</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>com.netflix.servo</groupId>
+    <artifactId>servo-internal</artifactId>
+    <version>0.10.1</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.security</groupId>
+    <artifactId>spring-security-rsa</artifactId>
+    <version>1.0.7.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.plugin</groupId>
+    <artifactId>spring-plugin-metadata</artifactId>
+    <version>1.2.0.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>bouncycastle</groupId>
+    <artifactId>bcprov-jdk14</artifactId>
+    <version>138</version>
+</dependency>
+<dependency>
+    <groupId>taglibs</groupId>
+    <artifactId>standard</artifactId>
+    <version>1.1.2</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.axis</groupId>
+    <artifactId>axis</artifactId>
+    <version>1.4</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-log4j12</artifactId>
+    <version>1.7.25</version>
+</dependency>
+<dependency>
+    <groupId>com.tdunning</groupId>
+    <artifactId>t-digest</artifactId>
+    <version>3.0</version>
+</dependency>
+<dependency>
+    <groupId>com.jcraft</groupId>
+    <artifactId>jsch.agentproxy.sshagent</artifactId>
+    <version>0.0.7</version>
+</dependency>
+<dependency>
+    <groupId>org.aspectj</groupId>
+    <artifactId>aspectjrt</artifactId>
+    <version>1.8.10</version>
+</dependency>
+<dependency>
+    <groupId>wsdl4j</groupId>
+    <artifactId>wsdl4j</artifactId>
+    <version>1.5.1</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-rds</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>com.sun.xml.bind</groupId>
+    <artifactId>jaxb-impl</artifactId>
+    <version>2.2.3-1</version>
+</dependency>
+<dependency>
+    <groupId>org.glassfish.hk2</groupId>
+    <artifactId>hk2-api</artifactId>
+    <version>2.5.0-b42</version>
+</dependency>
+<dependency>
+    <groupId>org.bitbucket.b_c</groupId>
+    <artifactId>jose4j</artifactId>
+    <version>0.6.3</version>
+</dependency>
+<dependency>
+    <groupId>com.github.jnr</groupId>
+    <artifactId>jnr-constants</artifactId>
+    <version>0.9.8</version>
+</dependency>
+<dependency>
+    <groupId>com.google.protobuf</groupId>
+    <artifactId>protobuf-java</artifactId>
+    <version>3.2.0</version>
+</dependency>
+<dependency>
+    <groupId>org.bouncycastle</groupId>
+    <artifactId>bcprov-jdk16</artifactId>
+    <version>1.46</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-cloudhsm</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>io.vertx</groupId>
+    <artifactId>vertx-bridge-common</artifactId>
+    <version>3.5.0</version>
+</dependency>
+<dependency>
+    <groupId>args4j</groupId>
+    <artifactId>args4j</artifactId>
+    <version>2.33</version>
+</dependency>
+<dependency>
+    <groupId>org.sonatype.aether</groupId>
+    <artifactId>aether-util</artifactId>
+    <version>1.13.1</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.datatype</groupId>
+    <artifactId>jackson-datatype-guava</artifactId>
+    <version>2.8.4</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.ws.xmlschema</groupId>
+    <artifactId>xmlschema-core</artifactId>
+    <version>2.1.0</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.dataformat</groupId>
+    <artifactId>jackson-dataformat-yaml</artifactId>
+    <version>2.4.5</version>
+</dependency>
+<dependency>
+    <groupId>com.google.code.findbugs</groupId>
+    <artifactId>jsr305</artifactId>
+    <version>1.3.8</version>
+</dependency>
+<dependency>
+    <groupId>com.netflix.ribbon</groupId>
+    <artifactId>ribbon-eureka</artifactId>
+    <version>2.2.5</version>
+</dependency>
+<dependency>
+    <groupId>cglib</groupId>
+    <artifactId>cglib-nodep</artifactId>
+    <version>2.1_3</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.security</groupId>
+    <artifactId>spring-security-web</artifactId>
+    <version>3.2.4.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>com.vaadin.external.google</groupId>
+    <artifactId>android-json</artifactId>
+    <version>0.0.20131108.vaadin1</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.plugin</groupId>
+    <artifactId>spring-plugin-core</artifactId>
+    <version>1.2.0.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>com.github.fge</groupId>
+    <artifactId>jackson-coreutils</artifactId>
+    <version>1.6</version>
+</dependency>
+<dependency>
+    <groupId>com.netflix.ribbon</groupId>
+    <artifactId>ribbon-core</artifactId>
+    <version>2.2.2</version>
+</dependency>
+<dependency>
+    <groupId>io.netty</groupId>
+    <artifactId>netty</artifactId>
+    <version>3.7.0.Final</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.geronimo.specs</groupId>
+    <artifactId>geronimo-j2ee-management_1.0_spec</artifactId>
+    <version>1.0</version>
+</dependency>
+<dependency>
+    <groupId>commons-pool</groupId>
+    <artifactId>commons-pool</artifactId>
+    <version>1.6</version>
+</dependency>
+<dependency>
+    <groupId>com.sun.mail</groupId>
+    <artifactId>javax.mail</artifactId>
+    <version>1.5.0</version>
+</dependency>
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-entitymanager</artifactId>
+    <version>5.0.12.Final</version>
+</dependency>
+<dependency>
+    <groupId>org.hibernate.validator</groupId>
+    <artifactId>hibernate-validator</artifactId>
+    <version>6.0.11.Final</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.xmlgraphics</groupId>
+    <artifactId>batik-svg-dom</artifactId>
+    <version>1.9</version>
+</dependency>
+<dependency>
+    <groupId>com.github.stephenc.jcip</groupId>
+    <artifactId>jcip-annotations</artifactId>
+    <version>1.0-1</version>
+</dependency>
+<dependency>
+    <groupId>com.hierynomus</groupId>
+    <artifactId>sshj</artifactId>
+    <version>0.21.1</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.axis</groupId>
+    <artifactId>axis-jaxrpc</artifactId>
+    <version>1.4</version>
+</dependency>
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-validator</artifactId>
+    <version>4.2.0.Final</version>
+</dependency>
+<dependency>
+    <groupId>org.codehaus.plexus</groupId>
+    <artifactId>plexus-utils</artifactId>
+    <version>2.0.6</version>
+</dependency>
+<dependency>
+    <groupId>commons-configuration</groupId>
+    <artifactId>commons-configuration</artifactId>
+    <version>1.10</version>
+</dependency>
+<dependency>
+    <groupId>org.javassist</groupId>
+    <artifactId>javassist</artifactId>
+    <version>3.18.2-GA</version>
+</dependency>
+<dependency>
+    <groupId>dom4j</groupId>
+    <artifactId>dom4j</artifactId>
+    <version>1.1</version>
+</dependency>
+<dependency>
+    <groupId>com.eclipsesource.j2v8</groupId>
+    <artifactId>j2v8_win32_x86_64</artifactId>
+    <version>4.6.0</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+    <version>2.0.4.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>javax.transaction</groupId>
@@ -370,37 +2180,37 @@
 <dependency>
     <groupId>com.google.inject</groupId>
     <artifactId>guice</artifactId>
-    <version>4.1.0</version>
+    <version>3.0</version>
 </dependency>
 <dependency>
-    <groupId>com.googlecode.json-simple</groupId>
-    <artifactId>json-simple</artifactId>
-    <version>1.1.1</version>
+    <groupId>org.apache.geronimo.specs</groupId>
+    <artifactId>geronimo-jta_1.0.1B_spec</artifactId>
+    <version>1.0.1</version>
 </dependency>
 <dependency>
-    <groupId>com.jayway.jsonpath</groupId>
-    <artifactId>json-path</artifactId>
-    <version>2.2.0</version>
+    <groupId>hsqldb</groupId>
+    <artifactId>hsqldb</artifactId>
+    <version>1.8.0.10</version>
 </dependency>
 <dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-api</artifactId>
-    <version>1.7.25</version>
+    <groupId>commons-beanutils</groupId>
+    <artifactId>commons-beanutils-core</artifactId>
+    <version>1.8.0</version>
 </dependency>
 <dependency>
-    <groupId>com.google.guava</groupId>
-    <artifactId>listenablefuture</artifactId>
-    <version>9999.0-empty-to-avoid-conflict-with-guava</version>
+    <groupId>org.glassfish.hk2.external</groupId>
+    <artifactId>javax.inject</artifactId>
+    <version>2.4.0-b34</version>
 </dependency>
 <dependency>
-    <groupId>io.dropwizard.metrics</groupId>
-    <artifactId>metrics-core</artifactId>
-    <version>3.1.2</version>
+    <groupId>com.sun.jersey</groupId>
+    <artifactId>jersey-core</artifactId>
+    <version>1.17.1</version>
 </dependency>
 <dependency>
-    <groupId>org.apache.commons</groupId>
-    <artifactId>commons-exec</artifactId>
-    <version>1.3</version>
+    <groupId>com.github.jnr</groupId>
+    <artifactId>jnr-unixsocket</artifactId>
+    <version>0.8</version>
 </dependency>
 <dependency>
     <groupId>commons-codec</groupId>
@@ -408,9 +2218,9 @@
     <version>1.10</version>
 </dependency>
 <dependency>
-    <groupId>org.apache.logging.log4j</groupId>
-    <artifactId>log4j-api</artifactId>
-    <version>2.10.0</version>
+    <groupId>com.mchange</groupId>
+    <artifactId>mchange-commons-java</artifactId>
+    <version>0.2.11</version>
 </dependency>
 <dependency>
     <groupId>axis</groupId>
@@ -418,24 +2228,39 @@
     <version>1.5.1</version>
 </dependency>
 <dependency>
-    <groupId>com.github.virtuald</groupId>
-    <artifactId>curvesapi</artifactId>
-    <version>1.04</version>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-spring-web</artifactId>
+    <version>2.7.0</version>
 </dependency>
 <dependency>
-    <groupId>jstl</groupId>
-    <artifactId>jstl</artifactId>
-    <version>1.2</version>
+    <groupId>org.codehaus.plexus</groupId>
+    <artifactId>plexus-interpolation</artifactId>
+    <version>1.11</version>
 </dependency>
 <dependency>
-    <groupId>bouncycastle</groupId>
-    <artifactId>bcprov-jdk14</artifactId>
-    <version>138</version>
+    <groupId>io.swagger</groupId>
+    <artifactId>swagger-jersey2-jaxrs</artifactId>
+    <version>1.5.21</version>
 </dependency>
 <dependency>
-    <groupId>org.apache.axis</groupId>
-    <artifactId>axis</artifactId>
-    <version>1.4</version>
+    <groupId>org.apache.xmlbeans</groupId>
+    <artifactId>xmlbeans</artifactId>
+    <version>2.6.0</version>
+</dependency>
+<dependency>
+    <groupId>org.lz4</groupId>
+    <artifactId>lz4-java</artifactId>
+    <version>1.4.0</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.cxf</groupId>
+    <artifactId>cxf-rt-frontend-simple</artifactId>
+    <version>3.1.6</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.xmlgraphics</groupId>
+    <artifactId>batik-svgrasterizer</artifactId>
+    <version>1.9</version>
 </dependency>
 <dependency>
     <groupId>com.github.fge</groupId>
@@ -443,49 +2268,39 @@
     <version>1.2</version>
 </dependency>
 <dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>log4j-over-slf4j</artifactId>
-    <version>1.7.25</version>
+    <groupId>com.netflix.servo</groupId>
+    <artifactId>servo-core</artifactId>
+    <version>0.10.1</version>
 </dependency>
 <dependency>
-    <groupId>com.fasterxml.woodstox</groupId>
-    <artifactId>woodstox-core</artifactId>
-    <version>5.0.3</version>
+    <groupId>javax.el</groupId>
+    <artifactId>javax.el-api</artifactId>
+    <version>3.0.0</version>
+</dependency>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-simpleworkflow</artifactId>
+    <version>1.10.42</version>
+</dependency>
+<dependency>
+    <groupId>com.github.fge</groupId>
+    <artifactId>msg-simple</artifactId>
+    <version>1.1</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.dataformat</groupId>
+    <artifactId>jackson-dataformat-cbor</artifactId>
+    <version>2.6.6</version>
+</dependency>
+<dependency>
+    <groupId>com.googlecode.javaewah</groupId>
+    <artifactId>JavaEWAH</artifactId>
+    <version>1.1.6</version>
 </dependency>
 <dependency>
     <groupId>org.slf4j</groupId>
     <artifactId>jul-to-slf4j</artifactId>
-    <version>1.7.25</version>
-</dependency>
-<dependency>
-    <groupId>commons-io</groupId>
-    <artifactId>commons-io</artifactId>
-    <version>2.5</version>
-</dependency>
-<dependency>
-    <groupId>backport-util-concurrent</groupId>
-    <artifactId>backport-util-concurrent</artifactId>
-    <version>3.1</version>
-</dependency>
-<dependency>
-    <groupId>com.fasterxml.jackson.jaxrs</groupId>
-    <artifactId>jackson-jaxrs-json-provider</artifactId>
-    <version>2.9.7</version>
-</dependency>
-<dependency>
-    <groupId>com.mchange</groupId>
-    <artifactId>mchange-commons-java</artifactId>
-    <version>0.2.11</version>
-</dependency>
-<dependency>
-    <groupId>com.fasterxml.jackson.core</groupId>
-    <artifactId>jackson-databind</artifactId>
-    <version>2.8.9</version>
-</dependency>
-<dependency>
-    <groupId>com.fasterxml.jackson.datatype</groupId>
-    <artifactId>jackson-datatype-jdk8</artifactId>
-    <version>2.9.6</version>
+    <version>1.7.10</version>
 </dependency>
 </dependencies>
 </project>
