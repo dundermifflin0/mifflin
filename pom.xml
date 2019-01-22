@@ -8,9 +8,209 @@
     <version>1.0-SNAPSHOT</version>
 <dependencies>
 <dependency>
+    <groupId>commons-beanutils</groupId>
+    <artifactId>commons-beanutils</artifactId>
+    <version>1.7.0</version>
+</dependency>
+<dependency>
+    <groupId>com.netflix.netflix-commons</groupId>
+    <artifactId>netflix-statistics</artifactId>
+    <version>0.1.1</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml</groupId>
+    <artifactId>classmate</artifactId>
+    <version>1.0.0</version>
+</dependency>
+<dependency>
+    <groupId>ch.qos.logback</groupId>
+    <artifactId>logback-core</artifactId>
+    <version>1.1.11</version>
+</dependency>
+<dependency>
+    <groupId>axis</groupId>
+    <artifactId>axis-ant</artifactId>
+    <version>1.2</version>
+</dependency>
+<dependency>
+    <groupId>org.aspectj</groupId>
+    <artifactId>aspectjweaver</artifactId>
+    <version>1.8.9</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>jcl-over-slf4j</artifactId>
+    <version>1.7.25</version>
+</dependency>
+<dependency>
+    <groupId>joda-time</groupId>
+    <artifactId>joda-time</artifactId>
+    <version>2.3</version>
+</dependency>
+<dependency>
+    <groupId>com.google.collections</groupId>
+    <artifactId>google-collections</artifactId>
+    <version>1.0</version>
+</dependency>
+<dependency>
+    <groupId>com.jcraft</groupId>
+    <artifactId>jsch</artifactId>
+    <version>0.1.54</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-annotations</artifactId>
+    <version>2.8.0</version>
+</dependency>
+<dependency>
+    <groupId>com.google.errorprone</groupId>
+    <artifactId>error_prone_annotations</artifactId>
+    <version>2.0.18</version>
+</dependency>
+<dependency>
+    <groupId>javax.transaction</groupId>
+    <artifactId>transaction-api</artifactId>
+    <version>1.1</version>
+</dependency>
+<dependency>
+    <groupId>org.mockito</groupId>
+    <artifactId>mockito-all</artifactId>
+    <version>1.10.19</version>
+</dependency>
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>servlet-api</artifactId>
+    <version>2.5</version>
+</dependency>
+<dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>guava</artifactId>
+    <version>18.0</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-log4j12</artifactId>
+    <version>1.7.5</version>
+</dependency>
+<dependency>
+    <groupId>org.javassist</groupId>
+    <artifactId>javassist</artifactId>
+    <version>3.21.0-GA</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpcore</artifactId>
+    <version>4.4.9</version>
+</dependency>
+<dependency>
+    <groupId>aopalliance</groupId>
+    <artifactId>aopalliance</artifactId>
+    <version>1.0</version>
+</dependency>
+<dependency>
+    <groupId>javax.validation</groupId>
+    <artifactId>validation-api</artifactId>
+    <version>1.1.0.Final</version>
+</dependency>
+<dependency>
+    <groupId>com.netflix.hystrix</groupId>
+    <artifactId>hystrix-core</artifactId>
+    <version>1.5.12</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.module</groupId>
+    <artifactId>jackson-module-parameter-names</artifactId>
+    <version>2.9.6</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.datatype</groupId>
+    <artifactId>jackson-datatype-jsr310</artifactId>
+    <version>2.9.6</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+    <version>4.5.1</version>
+</dependency>
+<dependency>
+    <groupId>com.sun.xml.bind</groupId>
+    <artifactId>jaxb-core</artifactId>
+    <version>2.2.11</version>
+</dependency>
+<dependency>
+    <groupId>org.hdrhistogram</groupId>
+    <artifactId>HdrHistogram</artifactId>
+    <version>2.1.10</version>
+</dependency>
+<dependency>
+    <groupId>org.latencyutils</groupId>
+    <artifactId>LatencyUtils</artifactId>
+    <version>2.0.3</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-pool2</artifactId>
+    <version>2.4.2</version>
+</dependency>
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-spi</artifactId>
+    <version>2.9.2</version>
+</dependency>
+<dependency>
     <groupId>com.google.code.gson</groupId>
     <artifactId>gson</artifactId>
     <version>2.2.4</version>
+</dependency>
+<dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.16</version>
+</dependency>
+<dependency>
+    <groupId>commons-collections</groupId>
+    <artifactId>commons-collections</artifactId>
+    <version>3.1</version>
+</dependency>
+<dependency>
+    <groupId>antlr</groupId>
+    <artifactId>antlrall</artifactId>
+    <version>2.7.2</version>
+</dependency>
+<dependency>
+    <groupId>axis</groupId>
+    <artifactId>axis-jaxrpc</artifactId>
+    <version>1.2</version>
+</dependency>
+<dependency>
+    <groupId>antlr</groupId>
+    <artifactId>antlr</artifactId>
+    <version>2.7.6</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.jaxrs</groupId>
+    <artifactId>jackson-jaxrs-base</artifactId>
+    <version>2.9.7</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-core</artifactId>
+    <version>2.8.11</version>
+</dependency>
+<dependency>
+    <groupId>org.jboss.logging</groupId>
+    <artifactId>jboss-logging</artifactId>
+    <version>3.1.3.GA</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.xmlbeans</groupId>
+    <artifactId>xmlbeans</artifactId>
+    <version>2.6.0</version>
+</dependency>
+<dependency>
+    <groupId>com.google.j2objc</groupId>
+    <artifactId>j2objc-annotations</artifactId>
+    <version>1.1</version>
 </dependency>
 <dependency>
     <groupId>com.google.code.findbugs</groupId>
@@ -18,9 +218,144 @@
     <version>1.3.9</version>
 </dependency>
 <dependency>
-    <groupId>com.netflix.netflix-commons</groupId>
-    <artifactId>netflix-statistics</artifactId>
-    <version>0.1.1</version>
+    <groupId>commons-httpclient</groupId>
+    <artifactId>commons-httpclient</artifactId>
+    <version>3.1</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.module</groupId>
+    <artifactId>jackson-module-jaxb-annotations</artifactId>
+    <version>2.9.7</version>
+</dependency>
+<dependency>
+    <groupId>cglib</groupId>
+    <artifactId>cglib-nodep</artifactId>
+    <version>2.1_3</version>
+</dependency>
+<dependency>
+    <groupId>com.vaadin.external.google</groupId>
+    <artifactId>android-json</artifactId>
+    <version>0.0.20131108.vaadin1</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.plugin</groupId>
+    <artifactId>spring-plugin-core</artifactId>
+    <version>1.2.0.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-web</artifactId>
+    <version>4.3.18.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>commons-dbcp</groupId>
+    <artifactId>commons-dbcp</artifactId>
+    <version>1.4</version>
+</dependency>
+<dependency>
+    <groupId>commons-pool</groupId>
+    <artifactId>commons-pool</artifactId>
+    <version>1.6</version>
+</dependency>
+<dependency>
+    <groupId>commons-cli</groupId>
+    <artifactId>commons-cli</artifactId>
+    <version>1.4</version>
+</dependency>
+<dependency>
+    <groupId>org.mockito</groupId>
+    <artifactId>mockito-core</artifactId>
+    <version>1.10.19</version>
+</dependency>
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>javax.servlet-api</artifactId>
+    <version>3.1.0</version>
+</dependency>
+<dependency>
+    <groupId>commons-logging</groupId>
+    <artifactId>commons-logging</artifactId>
+    <version>1.0.4</version>
+</dependency>
+<dependency>
+    <groupId>org.glassfish.hk2</groupId>
+    <artifactId>hk2-utils</artifactId>
+    <version>2.5.0-b32</version>
+</dependency>
+<dependency>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>animal-sniffer-annotations</artifactId>
+    <version>1.14</version>
+</dependency>
+<dependency>
+    <groupId>org.hibernate.validator</groupId>
+    <artifactId>hibernate-validator</artifactId>
+    <version>6.0.13.Final</version>
+</dependency>
+<dependency>
+    <groupId>axis</groupId>
+    <artifactId>axis</artifactId>
+    <version>1.2</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.velocity</groupId>
+    <artifactId>velocity</artifactId>
+    <version>1.5</version>
+</dependency>
+<dependency>
+    <groupId>ch.qos.logback</groupId>
+    <artifactId>logback-classic</artifactId>
+    <version>1.1.11</version>
+</dependency>
+<dependency>
+    <groupId>com.github.stephenc.jcip</groupId>
+    <artifactId>jcip-annotations</artifactId>
+    <version>1.0-1</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.axis</groupId>
+    <artifactId>axis-jaxrpc</artifactId>
+    <version>1.4</version>
+</dependency>
+<dependency>
+    <groupId>org.objenesis</groupId>
+    <artifactId>objenesis</artifactId>
+    <version>2.1</version>
+</dependency>
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-validator</artifactId>
+    <version>5.2.4.Final</version>
+</dependency>
+<dependency>
+    <groupId>javax.activation</groupId>
+    <artifactId>activation</artifactId>
+    <version>1.1</version>
+</dependency>
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-core</artifactId>
+    <version>2.9.2</version>
+</dependency>
+<dependency>
+    <groupId>classworlds</groupId>
+    <artifactId>classworlds</artifactId>
+    <version>1.1</version>
+</dependency>
+<dependency>
+    <groupId>dom4j</groupId>
+    <artifactId>dom4j</artifactId>
+    <version>1.6.1</version>
+</dependency>
+<dependency>
+    <groupId>axis</groupId>
+    <artifactId>axis-saaj</artifactId>
+    <version>1.2</version>
+</dependency>
+<dependency>
+    <groupId>asm</groupId>
+    <artifactId>asm</artifactId>
+    <version>3.1</version>
 </dependency>
 <dependency>
     <groupId>com.github.jnr</groupId>
@@ -38,39 +373,14 @@
     <version>4.1.0</version>
 </dependency>
 <dependency>
-    <groupId>com.fasterxml</groupId>
-    <artifactId>classmate</artifactId>
-    <version>1.0.0</version>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
 </dependency>
 <dependency>
-    <groupId>ch.qos.logback</groupId>
-    <artifactId>logback-core</artifactId>
-    <version>1.1.11</version>
-</dependency>
-<dependency>
-    <groupId>com.fasterxml.jackson.module</groupId>
-    <artifactId>jackson-module-parameter-names</artifactId>
-    <version>2.9.6</version>
-</dependency>
-<dependency>
-    <groupId>org.latencyutils</groupId>
-    <artifactId>LatencyUtils</artifactId>
-    <version>2.0.3</version>
-</dependency>
-<dependency>
-    <groupId>cglib</groupId>
-    <artifactId>cglib-nodep</artifactId>
-    <version>2.1_3</version>
-</dependency>
-<dependency>
-    <groupId>com.fasterxml.jackson.datatype</groupId>
-    <artifactId>jackson-datatype-jsr310</artifactId>
-    <version>2.9.6</version>
-</dependency>
-<dependency>
-    <groupId>com.vaadin.external.google</groupId>
-    <artifactId>android-json</artifactId>
-    <version>0.0.20131108.vaadin1</version>
+    <groupId>com.jayway.jsonpath</groupId>
+    <artifactId>json-path</artifactId>
+    <version>2.2.0</version>
 </dependency>
 <dependency>
     <groupId>org.slf4j</groupId>
@@ -78,59 +388,14 @@
     <version>1.7.25</version>
 </dependency>
 <dependency>
-    <groupId>org.apache.httpcomponents</groupId>
-    <artifactId>httpclient</artifactId>
-    <version>4.5.1</version>
-</dependency>
-<dependency>
-    <groupId>org.springframework.plugin</groupId>
-    <artifactId>spring-plugin-core</artifactId>
-    <version>1.2.0.RELEASE</version>
-</dependency>
-<dependency>
-    <groupId>axis</groupId>
-    <artifactId>axis-ant</artifactId>
-    <version>1.2</version>
-</dependency>
-<dependency>
-    <groupId>com.sun.xml.bind</groupId>
-    <artifactId>jaxb-core</artifactId>
-    <version>2.2.11</version>
-</dependency>
-<dependency>
-    <groupId>classworlds</groupId>
-    <artifactId>classworlds</artifactId>
-    <version>1.1-alpha-2</version>
-</dependency>
-<dependency>
-    <groupId>org.hdrhistogram</groupId>
-    <artifactId>HdrHistogram</artifactId>
-    <version>2.1.10</version>
-</dependency>
-<dependency>
-    <groupId>org.codehaus.mojo</groupId>
-    <artifactId>animal-sniffer-annotations</artifactId>
-    <version>1.14</version>
-</dependency>
-<dependency>
-    <groupId>javax.validation</groupId>
-    <artifactId>validation-api</artifactId>
-    <version>1.1.0.Final</version>
-</dependency>
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>jcl-over-slf4j</artifactId>
-    <version>1.7.25</version>
+    <groupId>com.google.guava</groupId>
+    <artifactId>listenablefuture</artifactId>
+    <version>9999.0-empty-to-avoid-conflict-with-guava</version>
 </dependency>
 <dependency>
     <groupId>io.dropwizard.metrics</groupId>
     <artifactId>metrics-core</artifactId>
     <version>3.1.2</version>
-</dependency>
-<dependency>
-    <groupId>commons-pool</groupId>
-    <artifactId>commons-pool</artifactId>
-    <version>1.6</version>
 </dependency>
 <dependency>
     <groupId>org.apache.commons</groupId>
@@ -148,69 +413,14 @@
     <version>2.10.0</version>
 </dependency>
 <dependency>
-    <groupId>commons-io</groupId>
-    <artifactId>commons-io</artifactId>
-    <version>2.5</version>
-</dependency>
-<dependency>
     <groupId>axis</groupId>
     <artifactId>axis-wsdl4j</artifactId>
     <version>1.5.1</version>
 </dependency>
 <dependency>
-    <groupId>com.jayway.jsonpath</groupId>
-    <artifactId>json-path</artifactId>
-    <version>2.2.0</version>
-</dependency>
-<dependency>
-    <groupId>log4j</groupId>
-    <artifactId>log4j</artifactId>
-    <version>1.2.16</version>
-</dependency>
-<dependency>
-    <groupId>commons-cli</groupId>
-    <artifactId>commons-cli</artifactId>
-    <version>1.4</version>
-</dependency>
-<dependency>
-    <groupId>org.mockito</groupId>
-    <artifactId>mockito-core</artifactId>
-    <version>1.10.19</version>
-</dependency>
-<dependency>
-    <groupId>com.google.collections</groupId>
-    <artifactId>google-collections</artifactId>
-    <version>1.0</version>
-</dependency>
-<dependency>
-    <groupId>com.jcraft</groupId>
-    <artifactId>jsch</artifactId>
-    <version>0.1.54</version>
-</dependency>
-<dependency>
-    <groupId>org.apache.commons</groupId>
-    <artifactId>commons-pool2</artifactId>
-    <version>2.4.2</version>
-</dependency>
-<dependency>
-    <groupId>commons-beanutils</groupId>
-    <artifactId>commons-beanutils</artifactId>
-    <version>1.7.0</version>
-</dependency>
-<dependency>
-    <groupId>com.fasterxml.jackson.core</groupId>
-    <artifactId>jackson-annotations</artifactId>
-    <version>2.8.0</version>
-</dependency>
-<dependency>
     <groupId>com.github.virtuald</groupId>
     <artifactId>curvesapi</artifactId>
     <version>1.04</version>
-</dependency>
-<dependency>
-    <groupId>commons-httpclient</groupId>
-    <artifactId>commons-httpclient</artifactId>
-    <version>3.1</version>
 </dependency>
 <dependency>
     <groupId>jstl</groupId>
@@ -223,74 +433,19 @@
     <version>138</version>
 </dependency>
 <dependency>
-    <groupId>dom4j</groupId>
-    <artifactId>dom4j</artifactId>
-    <version>1.6.1</version>
+    <groupId>org.apache.axis</groupId>
+    <artifactId>axis</artifactId>
+    <version>1.4</version>
 </dependency>
 <dependency>
-    <groupId>org.hibernate.validator</groupId>
-    <artifactId>hibernate-validator</artifactId>
-    <version>6.0.13.Final</version>
-</dependency>
-<dependency>
-    <groupId>com.google.errorprone</groupId>
-    <artifactId>error_prone_annotations</artifactId>
-    <version>2.0.18</version>
-</dependency>
-<dependency>
-    <groupId>joda-time</groupId>
-    <artifactId>joda-time</artifactId>
-    <version>2.3</version>
-</dependency>
-<dependency>
-    <groupId>org.javassist</groupId>
-    <artifactId>javassist</artifactId>
-    <version>3.21.0-GA</version>
-</dependency>
-<dependency>
-    <groupId>org.apache.httpcomponents</groupId>
-    <artifactId>httpcore</artifactId>
-    <version>4.4.9</version>
+    <groupId>com.github.fge</groupId>
+    <artifactId>btf</artifactId>
+    <version>1.2</version>
 </dependency>
 <dependency>
     <groupId>org.slf4j</groupId>
     <artifactId>log4j-over-slf4j</artifactId>
     <version>1.7.25</version>
-</dependency>
-<dependency>
-    <groupId>axis</groupId>
-    <artifactId>axis</artifactId>
-    <version>1.2</version>
-</dependency>
-<dependency>
-    <groupId>com.googlecode.json-simple</groupId>
-    <artifactId>json-simple</artifactId>
-    <version>1.1.1</version>
-</dependency>
-<dependency>
-    <groupId>ch.qos.logback</groupId>
-    <artifactId>logback-classic</artifactId>
-    <version>1.1.11</version>
-</dependency>
-<dependency>
-    <groupId>com.github.stephenc.jcip</groupId>
-    <artifactId>jcip-annotations</artifactId>
-    <version>1.0-1</version>
-</dependency>
-<dependency>
-    <groupId>axis</groupId>
-    <artifactId>axis-jaxrpc</artifactId>
-    <version>1.2</version>
-</dependency>
-<dependency>
-    <groupId>org.objenesis</groupId>
-    <artifactId>objenesis</artifactId>
-    <version>2.1</version>
-</dependency>
-<dependency>
-    <groupId>com.google.j2objc</groupId>
-    <artifactId>j2objc-annotations</artifactId>
-    <version>1.1</version>
 </dependency>
 <dependency>
     <groupId>com.fasterxml.woodstox</groupId>
@@ -303,29 +458,14 @@
     <version>1.7.25</version>
 </dependency>
 <dependency>
-    <groupId>asm</groupId>
-    <artifactId>asm</artifactId>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.5</version>
+</dependency>
+<dependency>
+    <groupId>backport-util-concurrent</groupId>
+    <artifactId>backport-util-concurrent</artifactId>
     <version>3.1</version>
-</dependency>
-<dependency>
-    <groupId>com.google.guava</groupId>
-    <artifactId>guava</artifactId>
-    <version>18.0</version>
-</dependency>
-<dependency>
-    <groupId>antlr</groupId>
-    <artifactId>antlr</artifactId>
-    <version>2.7.6</version>
-</dependency>
-<dependency>
-    <groupId>com.fasterxml.jackson.core</groupId>
-    <artifactId>jackson-core</artifactId>
-    <version>2.8.11</version>
-</dependency>
-<dependency>
-    <groupId>org.jboss.logging</groupId>
-    <artifactId>jboss-logging</artifactId>
-    <version>3.1.3.GA</version>
 </dependency>
 <dependency>
     <groupId>com.fasterxml.jackson.jaxrs</groupId>
@@ -338,49 +478,14 @@
     <version>0.2.11</version>
 </dependency>
 <dependency>
-    <groupId>javax.servlet</groupId>
-    <artifactId>javax.servlet-api</artifactId>
-    <version>3.1.0</version>
-</dependency>
-<dependency>
-    <groupId>axis</groupId>
-    <artifactId>axis-saaj</artifactId>
-    <version>1.2</version>
-</dependency>
-<dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-databind</artifactId>
     <version>2.8.9</version>
 </dependency>
 <dependency>
-    <groupId>org.apache.xmlbeans</groupId>
-    <artifactId>xmlbeans</artifactId>
-    <version>2.6.0</version>
-</dependency>
-<dependency>
-    <groupId>commons-collections</groupId>
-    <artifactId>commons-collections</artifactId>
-    <version>3.1</version>
-</dependency>
-<dependency>
-    <groupId>backport-util-concurrent</groupId>
-    <artifactId>backport-util-concurrent</artifactId>
-    <version>3.1</version>
-</dependency>
-<dependency>
     <groupId>com.fasterxml.jackson.datatype</groupId>
     <artifactId>jackson-datatype-jdk8</artifactId>
     <version>2.9.6</version>
-</dependency>
-<dependency>
-    <groupId>aopalliance</groupId>
-    <artifactId>aopalliance</artifactId>
-    <version>1.0</version>
-</dependency>
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-log4j12</artifactId>
-    <version>1.7.7</version>
 </dependency>
 </dependencies>
 </project>
