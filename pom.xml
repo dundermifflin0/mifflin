@@ -320,7 +320,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-ses</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>org.mockito</groupId>
@@ -490,7 +490,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-elasticbeanstalk</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>org.slf4j</groupId>
@@ -565,17 +565,17 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-cloudsearch</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-glacier</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-lambda</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>net.minidev</groupId>
@@ -745,7 +745,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-autoscaling</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>org.apache.logging.log4j</groupId>
@@ -840,7 +840,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-workspaces</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>org.glassfish.jersey.ext</groupId>
@@ -870,7 +870,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-devicefarm</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>org.springframework</groupId>
@@ -890,7 +890,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-kinesis</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>org.springframework.boot</groupId>
@@ -925,7 +925,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-ssm</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>com.fasterxml.woodstox</groupId>
@@ -935,7 +935,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-machinelearning</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>org.beanshell</groupId>
@@ -985,7 +985,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-iot</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>org.apache.xmlgraphics</groupId>
@@ -1035,7 +1035,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>com.netflix.netflix-commons</groupId>
@@ -1060,7 +1060,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-api-gateway</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>commons-io</groupId>
@@ -1180,7 +1180,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-ec2</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.95</version>
 </dependency>
 <dependency>
     <groupId>org.apache.cxf</groupId>
@@ -1215,7 +1215,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-cloudformation</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>org.opensaml</groupId>
@@ -1340,7 +1340,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-inspector</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>com.esotericsoftware</groupId>
@@ -1380,7 +1380,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-opsworks</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>net.sourceforge.jtds</groupId>
@@ -1560,7 +1560,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-codepipeline</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>org.eclipse.jetty</groupId>
@@ -1595,7 +1595,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-directconnect</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>org.mortbay.jetty</groupId>
@@ -1735,7 +1735,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-route53</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>ch.qos.logback</groupId>
@@ -1780,7 +1780,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-dynamodb</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>com.google.http-client</groupId>
@@ -1805,7 +1805,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-importexport</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>com.google.collections</groupId>
@@ -1835,7 +1835,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-sns</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.95</version>
 </dependency>
 <dependency>
     <groupId>io.netty</groupId>
@@ -1915,12 +1915,12 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-datapipeline</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-kms</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>com.netflix.servo</groupId>
@@ -1980,7 +1980,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-rds</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>com.sun.xml.bind</groupId>
@@ -2015,7 +2015,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-cloudhsm</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>io.vertx</groupId>
@@ -2280,7 +2280,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-simpleworkflow</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.96</version>
 </dependency>
 <dependency>
     <groupId>com.github.fge</groupId>
