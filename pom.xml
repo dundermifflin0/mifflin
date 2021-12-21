@@ -35,7 +35,7 @@
 <dependency>
     <groupId>ch.qos.logback</groupId>
     <artifactId>logback-classic</artifactId>
-    <version>1.1.11</version>
+    <version>1.2.7</version>
 </dependency>
 <dependency>
     <groupId>com.microsoft.sqlserver</groupId>
@@ -110,7 +110,7 @@
 <dependency>
     <groupId>org.apache.avro</groupId>
     <artifactId>avro</artifactId>
-    <version>1.7.4</version>
+    <version>1.11.0</version>
 </dependency>
 <dependency>
     <groupId>com.damnhandy</groupId>
@@ -160,7 +160,7 @@
 <dependency>
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-core</artifactId>
-    <version>3.2.4.RELEASE</version>
+    <version>4.0.1.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>io.springfox</groupId>
@@ -200,7 +200,7 @@
 <dependency>
     <groupId>org.apache.cxf</groupId>
     <artifactId>cxf-rt-transports-http</artifactId>
-    <version>3.1.6</version>
+    <version>3.1.14</version>
 </dependency>
 <dependency>
     <groupId>org.codehaus.plexus</groupId>
@@ -295,7 +295,7 @@
 <dependency>
     <groupId>org.opensaml</groupId>
     <artifactId>opensaml-xmlsec-api</artifactId>
-    <version>3.1.1</version>
+    <version>4.0.0</version>
 </dependency>
 <dependency>
     <groupId>com.github.fge</groupId>
@@ -330,7 +330,7 @@
 <dependency>
     <groupId>com.ecwid.consul</groupId>
     <artifactId>consul-api</artifactId>
-    <version>1.2.1</version>
+    <version>1.3.0</version>
 </dependency>
 <dependency>
     <groupId>org.apache.commons</groupId>
@@ -440,17 +440,17 @@
 <dependency>
     <groupId>org.glassfish.jersey.media</groupId>
     <artifactId>jersey-media-json-jackson</artifactId>
-    <version>2.26</version>
+    <version>2.30.1</version>
 </dependency>
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-actuator</artifactId>
-    <version>2.0.5.RELEASE</version>
+    <version>2.3.0.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>com.github.jknack</groupId>
     <artifactId>handlebars</artifactId>
-    <version>4.0.6</version>
+    <version>4.1.0</version>
 </dependency>
 <dependency>
     <groupId>io.vertx</groupId>
@@ -460,7 +460,7 @@
 <dependency>
     <groupId>org.apache.tomcat.embed</groupId>
     <artifactId>tomcat-embed-websocket</artifactId>
-    <version>8.5.29</version>
+    <version>8.5.68</version>
 </dependency>
 <dependency>
     <groupId>com.googlecode.libphonenumber</groupId>
@@ -485,7 +485,7 @@
 <dependency>
     <groupId>com.fasterxml.jackson.datatype</groupId>
     <artifactId>jackson-datatype-joda</artifactId>
-    <version>2.4.5</version>
+    <version>2.10.0</version>
 </dependency>
 <dependency>
     <groupId>com.amazonaws</groupId>
@@ -535,7 +535,7 @@
 <dependency>
     <groupId>io.swagger</groupId>
     <artifactId>swagger-core</artifactId>
-    <version>1.5.21</version>
+    <version>1.6.2</version>
 </dependency>
 <dependency>
     <groupId>asm</groupId>
@@ -605,7 +605,7 @@
 <dependency>
     <groupId>org.eclipse.jetty</groupId>
     <artifactId>jetty-server</artifactId>
-    <version>9.4.11.v20180605</version>
+    <version>9.4.39.v20210325</version>
 </dependency>
 <dependency>
     <groupId>com.itextpdf</groupId>
@@ -670,7 +670,7 @@
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-tomcat</artifactId>
-    <version>2.0.5.RELEASE</version>
+    <version>2.3.0.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>ecs</groupId>
@@ -720,12 +720,12 @@
 <dependency>
     <groupId>com.hubspot</groupId>
     <artifactId>HorizonApache</artifactId>
-    <version>0.0.7</version>
+    <version>0.0.10</version>
 </dependency>
 <dependency>
     <groupId>org.apache.cxf</groupId>
     <artifactId>cxf-rt-frontend-jaxrs</artifactId>
-    <version>3.2.5</version>
+    <version>3.3.8</version>
 </dependency>
 <dependency>
     <groupId>com.internetitem</groupId>
@@ -745,7 +745,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-autoscaling</artifactId>
-    <version>1.10.42</version>
+    <version>1.11.1034</version>
 </dependency>
 <dependency>
     <groupId>org.apache.logging.log4j</groupId>
@@ -765,7 +765,7 @@
 <dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi-ooxml</artifactId>
-    <version>3.16</version>
+    <version>4.1.1</version>
 </dependency>
 <dependency>
     <groupId>org.jdom</groupId>
@@ -830,7 +830,7 @@
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-webmvc</artifactId>
-    <version>3.2.4.RELEASE</version>
+    <version>5.0.5.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>org.apache.xmlgraphics</groupId>
@@ -850,22 +850,22 @@
 <dependency>
     <groupId>org.opensaml</groupId>
     <artifactId>opensaml-xmlsec-impl</artifactId>
-    <version>3.1.1</version>
+    <version>4.0.0</version>
 </dependency>
 <dependency>
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-jwt</artifactId>
-    <version>1.0.9.RELEASE</version>
+    <version>1.0.11.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>com.github.jknack</groupId>
     <artifactId>handlebars-helpers</artifactId>
-    <version>4.0.6</version>
+    <version>4.1.0</version>
 </dependency>
 <dependency>
     <groupId>org.apache.httpcomponents</groupId>
     <artifactId>httpmime</artifactId>
-    <version>4.5.3</version>
+    <version>4.5.13</version>
 </dependency>
 <dependency>
     <groupId>com.amazonaws</groupId>
@@ -895,7 +895,7 @@
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-json</artifactId>
-    <version>2.0.5.RELEASE</version>
+    <version>2.3.0.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>commons-logging</groupId>
@@ -990,12 +990,12 @@
 <dependency>
     <groupId>org.apache.xmlgraphics</groupId>
     <artifactId>batik-rasterizer</artifactId>
-    <version>1.9</version>
+    <version>1.13</version>
 </dependency>
 <dependency>
     <groupId>com.fasterxml.jackson.jaxrs</groupId>
     <artifactId>jackson-jaxrs-json-provider</artifactId>
-    <version>2.5.4</version>
+    <version>2.10.0</version>
 </dependency>
 <dependency>
     <groupId>org.apache.logging.log4j</groupId>
@@ -1005,12 +1005,12 @@
 <dependency>
     <groupId>io.netty</groupId>
     <artifactId>netty-codec-socks</artifactId>
-    <version>4.1.15.Final</version>
+    <version>4.1.68.Final</version>
 </dependency>
 <dependency>
     <groupId>org.apache.maven</groupId>
     <artifactId>maven-plugin-api</artifactId>
-    <version>3.0.5</version>
+    <version>3.5.0</version>
 </dependency>
 <dependency>
     <groupId>commons-logging</groupId>
@@ -1035,7 +1035,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.130</version>
 </dependency>
 <dependency>
     <groupId>com.netflix.netflix-commons</groupId>
@@ -1090,7 +1090,7 @@
 <dependency>
     <groupId>commons-digester</groupId>
     <artifactId>commons-digester</artifactId>
-    <version>1.4.1</version>
+    <version>1.8</version>
 </dependency>
 <dependency>
     <groupId>com.google.inject.extensions</groupId>
@@ -1180,7 +1180,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-ec2</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.130</version>
 </dependency>
 <dependency>
     <groupId>org.apache.cxf</groupId>
@@ -1215,12 +1215,12 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-cloudformation</artifactId>
-    <version>1.10.42</version>
+    <version>1.11.1034</version>
 </dependency>
 <dependency>
     <groupId>org.opensaml</groupId>
     <artifactId>openws</artifactId>
-    <version>1.4.2-1</version>
+    <version>1.5.4</version>
 </dependency>
 <dependency>
     <groupId>com.netflix.hystrix</groupId>
@@ -1265,7 +1265,7 @@
 <dependency>
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-config</artifactId>
-    <version>3.2.4.RELEASE</version>
+    <version>4.0.1.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>com.netflix.ribbon</groupId>
@@ -1290,7 +1290,7 @@
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-logging</artifactId>
-    <version>2.0.1.RELEASE</version>
+    <version>2.3.0.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>java2html</groupId>
@@ -1300,7 +1300,7 @@
 <dependency>
     <groupId>org.apache.maven</groupId>
     <artifactId>maven-settings</artifactId>
-    <version>3.0.5</version>
+    <version>3.5.0</version>
 </dependency>
 <dependency>
     <groupId>javax.mail</groupId>
@@ -1365,7 +1365,7 @@
 <dependency>
     <groupId>com.fasterxml.jackson.jaxrs</groupId>
     <artifactId>jackson-jaxrs-base</artifactId>
-    <version>2.8.11</version>
+    <version>2.10.0</version>
 </dependency>
 <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
@@ -1425,7 +1425,7 @@
 <dependency>
     <groupId>org.apache.xmlgraphics</groupId>
     <artifactId>batik-codec</artifactId>
-    <version>1.9</version>
+    <version>1.13</version>
 </dependency>
 <dependency>
     <groupId>com.esotericsoftware</groupId>
@@ -1460,7 +1460,7 @@
 <dependency>
     <groupId>org.apache.cxf</groupId>
     <artifactId>cxf-rt-transports-http-jetty</artifactId>
-    <version>3.2.1</version>
+    <version>3.3.11</version>
 </dependency>
 <dependency>
     <groupId>net.bytebuddy</groupId>
@@ -1475,7 +1475,7 @@
 <dependency>
     <groupId>com.google.protobuf</groupId>
     <artifactId>protobuf-java-util</artifactId>
-    <version>3.6.1</version>
+    <version>3.15.0</version>
 </dependency>
 <dependency>
     <groupId>com.hynnet</groupId>
@@ -1515,7 +1515,7 @@
 <dependency>
     <groupId>org.opensaml</groupId>
     <artifactId>opensaml-profile-api</artifactId>
-    <version>3.1.1</version>
+    <version>3.2.0</version>
 </dependency>
 <dependency>
     <groupId>org.codehaus.plexus</groupId>
@@ -1530,7 +1530,7 @@
 <dependency>
     <groupId>org.eclipse.jetty</groupId>
     <artifactId>jetty-servlet</artifactId>
-    <version>9.4.7.v20170914</version>
+    <version>9.4.39.v20210325</version>
 </dependency>
 <dependency>
     <groupId>com.aragost.javahg</groupId>
@@ -1560,7 +1560,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-codepipeline</artifactId>
-    <version>1.10.42</version>
+    <version>1.11.1034</version>
 </dependency>
 <dependency>
     <groupId>org.eclipse.jetty</groupId>
@@ -1580,7 +1580,7 @@
 <dependency>
     <groupId>io.netty</groupId>
     <artifactId>netty-handler</artifactId>
-    <version>4.1.16.Final</version>
+    <version>4.1.68.Final</version>
 </dependency>
 <dependency>
     <groupId>com.mysema.commons</groupId>
@@ -1595,7 +1595,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-directconnect</artifactId>
-    <version>1.10.42</version>
+    <version>1.11.1034</version>
 </dependency>
 <dependency>
     <groupId>org.mortbay.jetty</groupId>
@@ -1680,7 +1680,7 @@
 <dependency>
     <groupId>com.google.http-client</groupId>
     <artifactId>google-http-client-protobuf</artifactId>
-    <version>1.20.0</version>
+    <version>1.40.0</version>
 </dependency>
 <dependency>
     <groupId>junit</groupId>
@@ -1710,12 +1710,12 @@
 <dependency>
     <groupId>com.nimbusds</groupId>
     <artifactId>nimbus-jose-jwt</artifactId>
-    <version>3.1.2</version>
+    <version>4.35</version>
 </dependency>
 <dependency>
     <groupId>io.springfox</groupId>
     <artifactId>springfox-swagger-common</artifactId>
-    <version>2.7.0</version>
+    <version>2.10.0</version>
 </dependency>
 <dependency>
     <groupId>com.beust</groupId>
@@ -1795,7 +1795,7 @@
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-security</artifactId>
-    <version>2.0.5.RELEASE</version>
+    <version>2.3.0.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>org.springframework</groupId>
@@ -1930,7 +1930,7 @@
 <dependency>
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-rsa</artifactId>
-    <version>1.0.7.RELEASE</version>
+    <version>1.0.10.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>org.springframework.plugin</groupId>
@@ -2015,7 +2015,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-cloudhsm</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.130</version>
 </dependency>
 <dependency>
     <groupId>io.vertx</groupId>
@@ -2055,7 +2055,7 @@
 <dependency>
     <groupId>com.netflix.ribbon</groupId>
     <artifactId>ribbon-eureka</artifactId>
-    <version>2.2.5</version>
+    <version>2.3.0</version>
 </dependency>
 <dependency>
     <groupId>cglib</groupId>
@@ -2065,7 +2065,7 @@
 <dependency>
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-web</artifactId>
-    <version>3.2.4.RELEASE</version>
+    <version>5.2.9.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>com.vaadin.external.google</groupId>
@@ -2110,7 +2110,7 @@
 <dependency>
     <groupId>org.hibernate</groupId>
     <artifactId>hibernate-entitymanager</artifactId>
-    <version>5.0.12.Final</version>
+    <version>5.4.24.Final</version>
 </dependency>
 <dependency>
     <groupId>org.hibernate.validator</groupId>
@@ -2170,7 +2170,7 @@
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-web</artifactId>
-    <version>2.0.4.RELEASE</version>
+    <version>2.3.0.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>javax.transaction</groupId>
@@ -2240,7 +2240,7 @@
 <dependency>
     <groupId>io.swagger</groupId>
     <artifactId>swagger-jersey2-jaxrs</artifactId>
-    <version>1.5.21</version>
+    <version>1.6.2</version>
 </dependency>
 <dependency>
     <groupId>org.apache.xmlbeans</groupId>
@@ -2280,7 +2280,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-simpleworkflow</artifactId>
-    <version>1.10.42</version>
+    <version>1.11.1034</version>
 </dependency>
 <dependency>
     <groupId>com.github.fge</groupId>
@@ -2290,7 +2290,7 @@
 <dependency>
     <groupId>com.fasterxml.jackson.dataformat</groupId>
     <artifactId>jackson-dataformat-cbor</artifactId>
-    <version>2.6.6</version>
+    <version>2.8.0</version>
 </dependency>
 <dependency>
     <groupId>com.googlecode.javaewah</groupId>
