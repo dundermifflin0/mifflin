@@ -400,7 +400,7 @@
 <dependency>
     <groupId>com.thoughtworks.xstream</groupId>
     <artifactId>xstream</artifactId>
-    <version>1.4.10</version>
+    <version>1.4.19</version>
 </dependency>
 <dependency>
     <groupId>com.github.andrewoma.dexx</groupId>
@@ -475,7 +475,7 @@
 <dependency>
     <groupId>com.github.junrar</groupId>
     <artifactId>junrar</artifactId>
-    <version>0.7</version>
+    <version>7.4.1</version>
 </dependency>
 <dependency>
     <groupId>org.apache.lucene</groupId>
