@@ -160,7 +160,7 @@
 <dependency>
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-core</artifactId>
-    <version>3.2.4.RELEASE</version>
+    <version>4.0.1.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>io.springfox</groupId>
@@ -320,7 +320,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-ses</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.187</version>
 </dependency>
 <dependency>
     <groupId>org.mockito</groupId>
@@ -415,7 +415,7 @@
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-context</artifactId>
-    <version>4.3.16.RELEASE</version>
+    <version>5.3.17</version>
 </dependency>
 <dependency>
     <groupId>org.springframework.security</groupId>
@@ -830,7 +830,7 @@
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-webmvc</artifactId>
-    <version>3.2.4.RELEASE</version>
+    <version>5.3.17</version>
 </dependency>
 <dependency>
     <groupId>org.apache.xmlgraphics</groupId>
@@ -1800,7 +1800,7 @@
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-expression</artifactId>
-    <version>5.0.5.RELEASE</version>
+    <version>5.3.17</version>
 </dependency>
 <dependency>
     <groupId>com.amazonaws</groupId>
@@ -2065,7 +2065,7 @@
 <dependency>
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-web</artifactId>
-    <version>3.2.4.RELEASE</version>
+    <version>4.0.1.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>com.vaadin.external.google</groupId>
