@@ -290,7 +290,7 @@
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-web</artifactId>
-    <version>4.3.18.RELEASE</version>
+    <version>5.0.0.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>org.opensaml</groupId>
@@ -415,7 +415,7 @@
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-context</artifactId>
-    <version>4.3.16.RELEASE</version>
+    <version>5.2.21.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>org.springframework.security</groupId>
@@ -445,7 +445,7 @@
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-actuator</artifactId>
-    <version>2.0.5.RELEASE</version>
+    <version>2.3.1.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>com.github.jknack</groupId>
@@ -830,7 +830,7 @@
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-webmvc</artifactId>
-    <version>3.2.4.RELEASE</version>
+    <version>5.2.21.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>org.apache.xmlgraphics</groupId>
