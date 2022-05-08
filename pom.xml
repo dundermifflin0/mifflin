@@ -690,7 +690,7 @@
 <dependency>
     <groupId>io.netty</groupId>
     <artifactId>netty-common</artifactId>
-    <version>4.1.29.Final</version>
+    <version>4.1.77.Final</version>
 </dependency>
 <dependency>
     <groupId>javax.validation</groupId>
@@ -1195,7 +1195,7 @@
 <dependency>
     <groupId>io.netty</groupId>
     <artifactId>netty-resolver</artifactId>
-    <version>4.1.16.Final</version>
+    <version>4.1.77.Final</version>
 </dependency>
 <dependency>
     <groupId>castor</groupId>
@@ -1525,7 +1525,7 @@
 <dependency>
     <groupId>io.netty</groupId>
     <artifactId>netty-buffer</artifactId>
-    <version>4.0.27.Final</version>
+    <version>4.1.77.Final</version>
 </dependency>
 <dependency>
     <groupId>org.eclipse.jetty</groupId>
