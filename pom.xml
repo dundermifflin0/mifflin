@@ -160,7 +160,7 @@
 <dependency>
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-core</artifactId>
-    <version>3.2.4.RELEASE</version>
+    <version>5.5.7</version>
 </dependency>
 <dependency>
     <groupId>io.springfox</groupId>
@@ -1265,7 +1265,7 @@
 <dependency>
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-config</artifactId>
-    <version>3.2.4.RELEASE</version>
+    <version>5.5.7</version>
 </dependency>
 <dependency>
     <groupId>com.netflix.ribbon</groupId>
@@ -2065,7 +2065,7 @@
 <dependency>
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-web</artifactId>
-    <version>3.2.4.RELEASE</version>
+    <version>5.5.7</version>
 </dependency>
 <dependency>
     <groupId>com.vaadin.external.google</groupId>
