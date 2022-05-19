@@ -420,7 +420,7 @@
 <dependency>
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-crypto</artifactId>
-    <version>5.0.8.RELEASE</version>
+    <version>5.5.7</version>
 </dependency>
 <dependency>
     <groupId>javax.websocket</groupId>
@@ -2065,7 +2065,7 @@
 <dependency>
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-web</artifactId>
-    <version>3.2.4.RELEASE</version>
+    <version>5.5.7</version>
 </dependency>
 <dependency>
     <groupId>com.vaadin.external.google</groupId>
