@@ -10,7 +10,7 @@
 <dependency>
     <groupId>org.yaml</groupId>
     <artifactId>snakeyaml</artifactId>
-    <version>1.17</version>
+    <version>1.31</version>
 </dependency>
 <dependency>
     <groupId>com.fasterxml</groupId>
@@ -1780,7 +1780,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-dynamodb</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.292</version>
 </dependency>
 <dependency>
     <groupId>com.google.http-client</groupId>
