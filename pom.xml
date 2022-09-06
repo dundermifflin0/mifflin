@@ -10,7 +10,7 @@
 <dependency>
     <groupId>org.yaml</groupId>
     <artifactId>snakeyaml</artifactId>
-    <version>1.17</version>
+    <version>1.31</version>
 </dependency>
 <dependency>
     <groupId>com.fasterxml</groupId>
@@ -2045,7 +2045,7 @@
 <dependency>
     <groupId>com.fasterxml.jackson.dataformat</groupId>
     <artifactId>jackson-dataformat-yaml</artifactId>
-    <version>2.4.5</version>
+    <version>2.13.4</version>
 </dependency>
 <dependency>
     <groupId>com.google.code.findbugs</groupId>
