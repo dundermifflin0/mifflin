@@ -95,7 +95,7 @@
 <dependency>
     <groupId>org.apache.cxf</groupId>
     <artifactId>cxf-rt-ws-policy</artifactId>
-    <version>3.2.1</version>
+    <version>3.4.10</version>
 </dependency>
 <dependency>
     <groupId>org.jvnet</groupId>
@@ -200,7 +200,7 @@
 <dependency>
     <groupId>org.apache.cxf</groupId>
     <artifactId>cxf-rt-transports-http</artifactId>
-    <version>3.1.6</version>
+    <version>3.4.10</version>
 </dependency>
 <dependency>
     <groupId>org.codehaus.plexus</groupId>
@@ -350,7 +350,7 @@
 <dependency>
     <groupId>org.apache.cxf</groupId>
     <artifactId>cxf-core</artifactId>
-    <version>3.1.1</version>
+    <version>3.4.10</version>
 </dependency>
 <dependency>
     <groupId>commons-lang</groupId>
@@ -725,7 +725,7 @@
 <dependency>
     <groupId>org.apache.cxf</groupId>
     <artifactId>cxf-rt-frontend-jaxrs</artifactId>
-    <version>3.2.5</version>
+    <version>3.4.10</version>
 </dependency>
 <dependency>
     <groupId>com.internetitem</groupId>
@@ -910,7 +910,7 @@
 <dependency>
     <groupId>org.apache.cxf</groupId>
     <artifactId>cxf-rt-bindings-soap</artifactId>
-    <version>3.2.1</version>
+    <version>3.4.10</version>
 </dependency>
 <dependency>
     <groupId>commons-cli</groupId>
@@ -1185,7 +1185,7 @@
 <dependency>
     <groupId>org.apache.cxf</groupId>
     <artifactId>cxf-rt-frontend-jaxws</artifactId>
-    <version>3.2.1</version>
+    <version>3.4.10</version>
 </dependency>
 <dependency>
     <groupId>org.ow2.asm</groupId>
@@ -1460,7 +1460,7 @@
 <dependency>
     <groupId>org.apache.cxf</groupId>
     <artifactId>cxf-rt-transports-http-jetty</artifactId>
-    <version>3.2.1</version>
+    <version>3.4.10</version>
 </dependency>
 <dependency>
     <groupId>net.bytebuddy</groupId>
@@ -1775,7 +1775,7 @@
 <dependency>
     <groupId>org.apache.cxf</groupId>
     <artifactId>cxf-rt-ws-addr</artifactId>
-    <version>3.2.1</version>
+    <version>3.4.10</version>
 </dependency>
 <dependency>
     <groupId>com.amazonaws</groupId>
@@ -2255,7 +2255,7 @@
 <dependency>
     <groupId>org.apache.cxf</groupId>
     <artifactId>cxf-rt-frontend-simple</artifactId>
-    <version>3.1.6</version>
+    <version>3.4.10</version>
 </dependency>
 <dependency>
     <groupId>org.apache.xmlgraphics</groupId>
