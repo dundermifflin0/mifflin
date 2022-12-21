@@ -320,7 +320,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-ses</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.369</version>
 </dependency>
 <dependency>
     <groupId>org.mockito</groupId>
@@ -455,7 +455,7 @@
 <dependency>
     <groupId>io.vertx</groupId>
     <artifactId>vertx-core</artifactId>
-    <version>3.5.0</version>
+    <version>4.3.7</version>
 </dependency>
 <dependency>
     <groupId>org.apache.tomcat.embed</groupId>
@@ -1035,7 +1035,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.369</version>
 </dependency>
 <dependency>
     <groupId>com.netflix.netflix-commons</groupId>
