@@ -155,7 +155,7 @@
 <dependency>
     <groupId>com.jamesmurty.utils</groupId>
     <artifactId>java-xmlbuilder</artifactId>
-    <version>1.1</version>
+    <version>1.2</version>
 </dependency>
 <dependency>
     <groupId>org.springframework.security</groupId>
@@ -320,7 +320,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-ses</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.410</version>
 </dependency>
 <dependency>
     <groupId>org.mockito</groupId>
@@ -1035,7 +1035,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.410</version>
 </dependency>
 <dependency>
     <groupId>com.netflix.netflix-commons</groupId>
