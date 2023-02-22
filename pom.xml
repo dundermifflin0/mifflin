@@ -320,7 +320,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-ses</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.412</version>
 </dependency>
 <dependency>
     <groupId>org.mockito</groupId>
@@ -775,7 +775,7 @@
 <dependency>
     <groupId>commons-fileupload</groupId>
     <artifactId>commons-fileupload</artifactId>
-    <version>1.0</version>
+    <version>1.5</version>
 </dependency>
 <dependency>
     <groupId>com.sun.jersey</groupId>
@@ -1780,7 +1780,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-dynamodb</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.412</version>
 </dependency>
 <dependency>
     <groupId>com.google.http-client</groupId>
