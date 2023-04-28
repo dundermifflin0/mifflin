@@ -1860,7 +1860,7 @@
 <dependency>
     <groupId>org.json</groupId>
     <artifactId>json</artifactId>
-    <version>20090211</version>
+    <version>20230227</version>
 </dependency>
 <dependency>
     <groupId>org.apache.xbean</groupId>
@@ -1995,7 +1995,7 @@
 <dependency>
     <groupId>org.bitbucket.b_c</groupId>
     <artifactId>jose4j</artifactId>
-    <version>0.6.3</version>
+    <version>0.9.3</version>
 </dependency>
 <dependency>
     <groupId>com.github.jnr</groupId>
