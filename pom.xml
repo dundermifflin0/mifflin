@@ -570,7 +570,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-glacier</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.464</version>
 </dependency>
 <dependency>
     <groupId>com.amazonaws</groupId>
@@ -1460,7 +1460,7 @@
 <dependency>
     <groupId>org.apache.cxf</groupId>
     <artifactId>cxf-rt-transports-http-jetty</artifactId>
-    <version>3.2.1</version>
+    <version>3.5.6</version>
 </dependency>
 <dependency>
     <groupId>net.bytebuddy</groupId>
