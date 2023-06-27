@@ -445,7 +445,7 @@
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-actuator</artifactId>
-    <version>2.0.5.RELEASE</version>
+    <version>2.2.11.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>com.github.jknack</groupId>
@@ -455,7 +455,7 @@
 <dependency>
     <groupId>io.vertx</groupId>
     <artifactId>vertx-core</artifactId>
-    <version>3.5.0</version>
+    <version>3.9.11</version>
 </dependency>
 <dependency>
     <groupId>org.apache.tomcat.embed</groupId>
@@ -1425,7 +1425,7 @@
 <dependency>
     <groupId>org.apache.xmlgraphics</groupId>
     <artifactId>batik-codec</artifactId>
-    <version>1.9</version>
+    <version>1.16</version>
 </dependency>
 <dependency>
     <groupId>com.esotericsoftware</groupId>
@@ -1930,7 +1930,7 @@
 <dependency>
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-rsa</artifactId>
-    <version>1.0.7.RELEASE</version>
+    <version>1.0.12.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>org.springframework.plugin</groupId>
