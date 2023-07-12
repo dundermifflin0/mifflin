@@ -255,7 +255,7 @@
 <dependency>
     <groupId>org.bouncycastle</groupId>
     <artifactId>bcprov-jdk14</artifactId>
-    <version>1.38</version>
+    <version>1.74</version>
 </dependency>
 <dependency>
     <groupId>com.netflix.ribbon</groupId>
@@ -320,7 +320,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-ses</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.505</version>
 </dependency>
 <dependency>
     <groupId>org.mockito</groupId>
@@ -1780,7 +1780,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-dynamodb</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.505</version>
 </dependency>
 <dependency>
     <groupId>com.google.http-client</groupId>
