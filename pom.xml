@@ -455,12 +455,12 @@
 <dependency>
     <groupId>io.vertx</groupId>
     <artifactId>vertx-core</artifactId>
-    <version>3.5.0</version>
+    <version>4.2.6</version>
 </dependency>
 <dependency>
     <groupId>org.apache.tomcat.embed</groupId>
     <artifactId>tomcat-embed-websocket</artifactId>
-    <version>8.5.29</version>
+    <version>8.5.94</version>
 </dependency>
 <dependency>
     <groupId>com.googlecode.libphonenumber</groupId>
@@ -605,7 +605,7 @@
 <dependency>
     <groupId>org.eclipse.jetty</groupId>
     <artifactId>jetty-server</artifactId>
-    <version>9.4.11.v20180605</version>
+    <version>9.4.53.v20231009</version>
 </dependency>
 <dependency>
     <groupId>com.itextpdf</groupId>
@@ -1460,7 +1460,7 @@
 <dependency>
     <groupId>org.apache.cxf</groupId>
     <artifactId>cxf-rt-transports-http-jetty</artifactId>
-    <version>3.2.1</version>
+    <version>3.6.2</version>
 </dependency>
 <dependency>
     <groupId>net.bytebuddy</groupId>
@@ -1880,7 +1880,7 @@
 <dependency>
     <groupId>org.apache.tomcat.embed</groupId>
     <artifactId>tomcat-embed-core</artifactId>
-    <version>8.5.29</version>
+    <version>8.5.94</version>
 </dependency>
 <dependency>
     <groupId>org.apache.maven</groupId>
