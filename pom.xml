@@ -1035,7 +1035,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.566</version>
 </dependency>
 <dependency>
     <groupId>com.netflix.netflix-commons</groupId>
@@ -1530,7 +1530,7 @@
 <dependency>
     <groupId>org.eclipse.jetty</groupId>
     <artifactId>jetty-servlet</artifactId>
-    <version>9.4.7.v20170914</version>
+    <version>9.4.11.v20180605</version>
 </dependency>
 <dependency>
     <groupId>com.aragost.javahg</groupId>
@@ -1860,7 +1860,7 @@
 <dependency>
     <groupId>org.json</groupId>
     <artifactId>json</artifactId>
-    <version>20090211</version>
+    <version>20231013</version>
 </dependency>
 <dependency>
     <groupId>org.apache.xbean</groupId>
