@@ -320,7 +320,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-ses</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.567</version>
 </dependency>
 <dependency>
     <groupId>org.mockito</groupId>
@@ -535,7 +535,7 @@
 <dependency>
     <groupId>io.swagger</groupId>
     <artifactId>swagger-core</artifactId>
-    <version>1.5.21</version>
+    <version>1.6.12</version>
 </dependency>
 <dependency>
     <groupId>asm</groupId>
@@ -1780,7 +1780,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-dynamodb</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.567</version>
 </dependency>
 <dependency>
     <groupId>com.google.http-client</groupId>
@@ -2240,7 +2240,7 @@
 <dependency>
     <groupId>io.swagger</groupId>
     <artifactId>swagger-jersey2-jaxrs</artifactId>
-    <version>1.5.21</version>
+    <version>1.6.12</version>
 </dependency>
 <dependency>
     <groupId>org.apache.xmlbeans</groupId>
