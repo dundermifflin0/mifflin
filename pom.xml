@@ -895,7 +895,7 @@
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-json</artifactId>
-    <version>2.0.5.RELEASE</version>
+    <version>3.1.10</version>
 </dependency>
 <dependency>
     <groupId>commons-logging</groupId>
@@ -2170,7 +2170,7 @@
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-web</artifactId>
-    <version>2.0.4.RELEASE</version>
+    <version>3.1.10</version>
 </dependency>
 <dependency>
     <groupId>javax.transaction</groupId>
