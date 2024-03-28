@@ -455,7 +455,7 @@
 <dependency>
     <groupId>io.vertx</groupId>
     <artifactId>vertx-core</artifactId>
-    <version>3.5.0</version>
+    <version>4.5.6</version>
 </dependency>
 <dependency>
     <groupId>org.apache.tomcat.embed</groupId>
@@ -1780,7 +1780,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-dynamodb</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.689</version>
 </dependency>
 <dependency>
     <groupId>com.google.http-client</groupId>
@@ -1840,7 +1840,7 @@
 <dependency>
     <groupId>io.netty</groupId>
     <artifactId>netty-codec-http</artifactId>
-    <version>4.1.16.Final</version>
+    <version>4.1.108.Final</version>
 </dependency>
 <dependency>
     <groupId>com.google.guava</groupId>
