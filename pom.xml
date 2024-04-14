@@ -290,12 +290,12 @@
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-web</artifactId>
-    <version>4.3.18.RELEASE</version>
+    <version>5.3.34</version>
 </dependency>
 <dependency>
     <groupId>org.opensaml</groupId>
     <artifactId>opensaml-xmlsec-api</artifactId>
-    <version>3.1.1</version>
+    <version>4.0.0</version>
 </dependency>
 <dependency>
     <groupId>com.github.fge</groupId>
@@ -320,7 +320,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-ses</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.701</version>
 </dependency>
 <dependency>
     <groupId>org.mockito</groupId>
@@ -570,7 +570,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-glacier</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.701</version>
 </dependency>
 <dependency>
     <groupId>com.amazonaws</groupId>
@@ -830,7 +830,7 @@
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-webmvc</artifactId>
-    <version>3.2.4.RELEASE</version>
+    <version>5.3.34</version>
 </dependency>
 <dependency>
     <groupId>org.apache.xmlgraphics</groupId>
@@ -1515,7 +1515,7 @@
 <dependency>
     <groupId>org.opensaml</groupId>
     <artifactId>opensaml-profile-api</artifactId>
-    <version>3.1.1</version>
+    <version>4.0.0</version>
 </dependency>
 <dependency>
     <groupId>org.codehaus.plexus</groupId>
