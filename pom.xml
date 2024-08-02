@@ -320,7 +320,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-ses</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.767</version>
 </dependency>
 <dependency>
     <groupId>org.mockito</groupId>
@@ -570,7 +570,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-glacier</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.767</version>
 </dependency>
 <dependency>
     <groupId>com.amazonaws</groupId>
@@ -730,7 +730,7 @@
 <dependency>
     <groupId>com.internetitem</groupId>
     <artifactId>write-properties-file-maven-plugin</artifactId>
-    <version>1.0.1</version>
+    <version>2.0.0</version>
 </dependency>
 <dependency>
     <groupId>com.google.guava</groupId>
@@ -1035,7 +1035,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.767</version>
 </dependency>
 <dependency>
     <groupId>com.netflix.netflix-commons</groupId>
