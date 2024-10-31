@@ -1795,7 +1795,7 @@
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-security</artifactId>
-    <version>2.0.5.RELEASE</version>
+    <version>3.2.11</version>
 </dependency>
 <dependency>
     <groupId>org.springframework</groupId>
@@ -2065,7 +2065,7 @@
 <dependency>
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-web</artifactId>
-    <version>3.2.4.RELEASE</version>
+    <version>5.7.13</version>
 </dependency>
 <dependency>
     <groupId>com.vaadin.external.google</groupId>
