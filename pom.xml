@@ -455,7 +455,7 @@
 <dependency>
     <groupId>io.vertx</groupId>
     <artifactId>vertx-core</artifactId>
-    <version>3.5.0</version>
+    <version>4.5.13</version>
 </dependency>
 <dependency>
     <groupId>org.apache.tomcat.embed</groupId>
@@ -690,7 +690,7 @@
 <dependency>
     <groupId>io.netty</groupId>
     <artifactId>netty-common</artifactId>
-    <version>4.1.29.Final</version>
+    <version>4.1.118.Final</version>
 </dependency>
 <dependency>
     <groupId>javax.validation</groupId>
@@ -1195,7 +1195,7 @@
 <dependency>
     <groupId>io.netty</groupId>
     <artifactId>netty-resolver</artifactId>
-    <version>4.1.16.Final</version>
+    <version>4.1.118.Final</version>
 </dependency>
 <dependency>
     <groupId>castor</groupId>
@@ -1525,7 +1525,7 @@
 <dependency>
     <groupId>io.netty</groupId>
     <artifactId>netty-buffer</artifactId>
-    <version>4.0.27.Final</version>
+    <version>4.1.118.Final</version>
 </dependency>
 <dependency>
     <groupId>org.eclipse.jetty</groupId>
@@ -1780,7 +1780,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-dynamodb</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.781</version>
 </dependency>
 <dependency>
     <groupId>com.google.http-client</groupId>
