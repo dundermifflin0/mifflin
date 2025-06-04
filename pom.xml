@@ -235,7 +235,7 @@
 <dependency>
     <groupId>org.springframework.cloud</groupId>
     <artifactId>spring-cloud-commons</artifactId>
-    <version>2.0.2.RELEASE</version>
+    <version>4.3.0</version>
 </dependency>
 <dependency>
     <groupId>org.projectlombok</groupId>
@@ -545,7 +545,7 @@
 <dependency>
     <groupId>commons-beanutils</groupId>
     <artifactId>commons-beanutils</artifactId>
-    <version>1.7.0</version>
+    <version>1.11.0</version>
 </dependency>
 <dependency>
     <groupId>com.netflix.netflix-commons</groupId>
@@ -1780,7 +1780,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-dynamodb</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.785</version>
 </dependency>
 <dependency>
     <groupId>com.google.http-client</groupId>
@@ -1820,7 +1820,7 @@
 <dependency>
     <groupId>org.springframework.cloud</groupId>
     <artifactId>spring-cloud-context</artifactId>
-    <version>2.0.2.RELEASE</version>
+    <version>4.3.0</version>
 </dependency>
 <dependency>
     <groupId>activesoap</groupId>
