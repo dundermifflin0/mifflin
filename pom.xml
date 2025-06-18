@@ -460,7 +460,7 @@
 <dependency>
     <groupId>org.apache.tomcat.embed</groupId>
     <artifactId>tomcat-embed-websocket</artifactId>
-    <version>8.5.29</version>
+    <version>9.0.106</version>
 </dependency>
 <dependency>
     <groupId>com.googlecode.libphonenumber</groupId>
@@ -670,7 +670,7 @@
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-tomcat</artifactId>
-    <version>2.0.5.RELEASE</version>
+    <version>3.3.7</version>
 </dependency>
 <dependency>
     <groupId>ecs</groupId>
@@ -775,7 +775,7 @@
 <dependency>
     <groupId>commons-fileupload</groupId>
     <artifactId>commons-fileupload</artifactId>
-    <version>1.0</version>
+    <version>1.6.0</version>
 </dependency>
 <dependency>
     <groupId>com.sun.jersey</groupId>
@@ -1765,7 +1765,7 @@
 <dependency>
     <groupId>org.eclipse.jgit</groupId>
     <artifactId>org.eclipse.jgit</artifactId>
-    <version>4.10.0.201712302008-r</version>
+    <version>5.8.0.202006091008-r</version>
 </dependency>
 <dependency>
     <groupId>com.drewnoakes</groupId>
@@ -1880,7 +1880,7 @@
 <dependency>
     <groupId>org.apache.tomcat.embed</groupId>
     <artifactId>tomcat-embed-core</artifactId>
-    <version>8.5.29</version>
+    <version>9.0.106</version>
 </dependency>
 <dependency>
     <groupId>org.apache.maven</groupId>
