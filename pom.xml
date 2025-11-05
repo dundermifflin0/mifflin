@@ -40,7 +40,7 @@
 <dependency>
     <groupId>com.microsoft.sqlserver</groupId>
     <artifactId>mssql-jdbc</artifactId>
-    <version>6.2.2.jre8</version>
+    <version>10.2.4.jre8</version>
 </dependency>
 <dependency>
     <groupId>org.codehaus.groovy</groupId>
@@ -570,7 +570,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-glacier</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.793</version>
 </dependency>
 <dependency>
     <groupId>com.amazonaws</groupId>
