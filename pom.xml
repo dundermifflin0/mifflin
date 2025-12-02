@@ -1780,7 +1780,7 @@
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-dynamodb</artifactId>
-    <version>1.10.42</version>
+    <version>1.12.794</version>
 </dependency>
 <dependency>
     <groupId>com.google.http-client</groupId>
@@ -2250,7 +2250,7 @@
 <dependency>
     <groupId>org.lz4</groupId>
     <artifactId>lz4-java</artifactId>
-    <version>1.4.0</version>
+    <version>1.8.1</version>
 </dependency>
 <dependency>
     <groupId>org.apache.cxf</groupId>
